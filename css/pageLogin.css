@@ -1,0 +1,62 @@
+body {
+    background: url(../images/Background.png) no-repeat center center fixed;
+    background-size: 200% 200%;
+}
+
+.input-group {
+    margin: 2%;
+    color: white;
+    width: 96%;
+}
+
+.form-control {
+    background-color: #464646;
+    border: none;
+    color: black;
+    font-size: 15pt;
+}
+
+.loginForm {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 1200px) {
+    .loginForm {
+        width: 30%;
+        margin-top: 5%;
+        zoom: 1;
+    }
+}
+
+@media (max-width: 1080px) {
+    .loginForm {
+        width: 100%;
+        zoom: 3;
+    }
+}
+
+.loginLogo {
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.loginButtonDiv {
+    width: 96%;
+}
+
+#loginButton {
+    width: 100%;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    font-size: 15pt;
+}
+
+.joinUs {
+    font-size: 8pt;
+    margin: 2%;
+    color: white;
+}

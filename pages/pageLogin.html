@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/pageLogin.css"/>
+    <script src="../js/pageLogin.js"></script>
+    <title>Connexion - Umovie</title>
+</head>
+<body>
+<div class="loginForm">
+    <img class="loginLogo" src="../images/umovie-logo.png"/>
+
+    <form class="loginFormInput">
+        <div class="input-group">
+            <input type="text" id="usernameInput" class="form-control" placeholder="Nom d'utilisateur"/>
+        </div>
+        <div class="input-group">
+            <input type="password" id="passwordInput" class="form-control" placeholder="Mot de passe"/>
+        </div>
+        <div class="input-group">
+            <input type="checkbox"/> Se souvenir de moi
+        </div>
+        <div class="input-group loginButtonDiv">
+            <input type="button" id="loginButton" class="btn btn-danger" value="Se connecter" onclick="sendLoginRequest()"></input>
+        </div>
+        <div class="joinUs">
+            <i>Vous n'avez pas encore de compte ?</i> <a href="pageRegister.html">Rejoignez nous !</a>
+        </div>
+    </form>
+</div>
+</body>
+</html>
