@@ -96,3 +96,7 @@ a:hover{
     color: #fff;
 
 }
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
