@@ -2,12 +2,18 @@
  * Created by RoxanneLandry on 15-09-13.
  */
 function activeDisplay(){
-    var affichage = document.getElementById('navbarSmall').style.display;
-   if (affichage == "none"){
-       document.getElementById('navbarSmall').style.display = "block";
+    var affichage = document.getElementById('navbarSmall');
+    var button = document.getElementById('buttonBurger');
+    alert(button === document.activeElement);
+   if (affichage.style.display == "none" && button === document.activeElement){
+       affichage.style.display = "block";
+       alert(button === document.activeElement);
    }
    else{
-       document.getElementById('navbarSmall').style.display = "none";
+       affichage.style.display = "none";
+       alert(button === document.activeElement);
+       button.blur();
+       alert(button === document.activeElement);
    }
 }
 
