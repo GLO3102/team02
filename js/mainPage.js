@@ -2,7 +2,13 @@
  * Created by RoxanneLandry on 15-09-13.
  */
 function activeDisplay(){
-    document.getElementById('navbarSmall').style.display = "block"
+    var affichage = document.getElementById('navbarSmall').style.display;
+   if (affichage == "none"){
+       document.getElementById('navbarSmall').style.display = "block";
+   }
+   else{
+       document.getElementById('navbarSmall').style.display = "none";
+   }
 }
 
 function afficherSearch(id)
