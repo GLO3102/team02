@@ -179,11 +179,7 @@ ul.dropdown-menu {
     width: 434%;
 }
 
-.img-container img {
-    display: inline-block;
-    width: 11.5%;
-    max-height: 200px;
-}
+
 
 .img-container {
     padding-left: 3%;
@@ -195,3 +191,4 @@ ul.dropdown-menu {
         display: inline-block;
     }
 }
+
