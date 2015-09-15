@@ -2,8 +2,9 @@
  * Created by RoxanneLandry on 15-09-13.
  */
 function activeDisplay(){
-    
+    $('navbarSmall').show;
 }
+
 function afficherSearch(id)
 {
     var searchBar = document.getElementById(id);
