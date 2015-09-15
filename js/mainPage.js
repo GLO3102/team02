@@ -1,6 +1,15 @@
 /**
  * Created by RoxanneLandry on 15-09-13.
  */
+function activeDisplay(){
+    var affichage = document.getElementById('navbarSmall').style.display;
+   if (affichage == "none"){
+       document.getElementById('navbarSmall').style.display = "block";
+   }
+   else{
+       document.getElementById('navbarSmall').style.display = "none";
+   }
+}
 
 function afficherSearch(id)
 {
@@ -13,39 +22,50 @@ function afficherSearch(id)
         searchBar.style.display = 'none';
     }
 }
-$('.carouselMultiple').slick({
-    dots: true,
-    infinite: false,
-    speed: 300,
-    slidesToShow: 4,
-    slidesToScroll: 4,
-    responsive: [
-        {
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3,
-                infinite: true,
-                dots: true
+$(document).ready(function(){
+    $('.carouselMultiple').slick({
+        infinite: true,
+        focusOnSelect: false,
+        slidesToShow: 9,
+        slidesToScroll: 1,
+        speed: 300,
+        responsive: [
+            {
+                breakpoint: 1194,
+                settings: {
+                    slidesToShow: 8,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 1029,
+                settings: {
+                    slidesToShow: 7,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 999,
+                settings: {
+                    slidesToShow: 6,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 969,
+                settings: {
+                    slidesToShow: 5,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1
+                }
             }
-        },
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
-            }
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-    ]
+        ]
+    });
 });
 
