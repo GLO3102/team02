@@ -16,7 +16,7 @@ body {
 }
 
 .navbar-nav > li > .dropdown-menu {
-    width: 431%;
+    width: 450%;
 }
 
 .navbar-nav > li > .dropdown-menu.rightMenu {
@@ -171,11 +171,18 @@ ul.dropdown-menu {
 
 .img-container img {
     display: inline-block;
-    width: 11.5%;
+    width: 12.9%;
     max-height: 200px;
 }
 
 .img-container {
     padding-left: 3%;
     padding-right: 3%;
+}
+@media screen and (max-width: 768px){
+    .img-container {
+        /* Cacher un certain nombre d'éléments avec nth-child ou autre*/
+        width: 5%;
+        float: left;
+    }
 }
