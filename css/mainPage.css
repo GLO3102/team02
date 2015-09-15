@@ -58,19 +58,18 @@ body {
     margin-bottom: 7%;
 }
 .containerDropdown{
-    width: 750px;
+    width: 108%;
     height: 120px;
     display: inline-block;
 }
 .containerDropdown.colonne1Dropdown{
-    width: 26%;
+    width: 23%;
     border-right: solid 2px #abaaae;
     max-height: 16px;
 }
 .containerDropdown.colonneDropdown{
     width: 33%;
     max-height: 110px;
-    margin-left: 2%;
 }
 .dropdownDescoverMenu{
     top: 100%;
@@ -80,10 +79,7 @@ body {
     margin: 2px 4px 0;
     text-align: left;
     list-style: none;
-    font-size: 14px;
-}
-.dropdownDescoverMenu.dropdownDescoverMenuPlusSize{
-    font-size: 14px;
+    font-size: 13px;
 }
 a{
     color: #8c8c8c;
@@ -139,9 +135,11 @@ h4{
 .utilisateurDropdownSpace.utilisateurDropdownSpaceSmall{
     margin-left: 2%;
 }
-
 @media (max-width:780px){
     .col-sm-2{
         display:inline-block;
     }
+}
+ul.dropdown-menu{
+    width: 434%;
 }

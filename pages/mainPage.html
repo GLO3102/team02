@@ -15,7 +15,7 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" onclick="afficherNavbar('navbarSmall')" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarSmall" aria-expanded="false" aria-controls="navbarSmall">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarSmall" aria-expanded="false" aria-controls="navbarSmall">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -29,7 +29,7 @@
                         <ul class="dropdown-menu">
                             <div class="containerDropdown">
                                 <div class="containerDropdown colonne1Dropdown">
-                                    <ul class="dropdownDescoverMenu dropdownDescoverMenuPlusSize">
+                                    <ul class="dropdownDescoverMenu">
                                         <li><a href="#">Ma liste</a></li>
                                         <li><a href="#">Nouveaux films</a></li>
                                         <li><a href="#">Nouvelles séries TV</a></li>
@@ -92,16 +92,28 @@
                             <li role="separator" class="divider"></li>
                             <li><a href="#">Aide</a></li>
                             <li><a href="#">Signaler un problème</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Films</a></li>
-                            <li><a href="#">Série TV</a></li>
-                            <li><a href="#">Acteurs</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSmall">
+                <ul class="nav navbar-nav">
+                    <li class="utilisateurDropdownSpace utilisateurDropdownSpaceSmall">Utilisé en tant que : </li>
+                    <li class="utilisateurDropdownSpace utilisateurDropdownSpaceSmall"><img id="avatarIcon" src="../images/avatar.png"> USERNAME </li>
+                    <li><a href="pageLogin.html">Déconnexion</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Aide</a></li>
+                    <li><a href="#">Signaler un problème</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Films</a></li>
+                    <li><a href="#">Séries Tv</a></li>
+                    <li><a href="#">Acteurs</a></li>
+                </ul>
+            </div>
+        </div>
 
 </head>
 
