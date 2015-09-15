@@ -15,7 +15,6 @@ function afficherSearch(id)
 }
 $(document).ready(function(){
     $('.carouselMultiple').slick({
-        dots: true,
         infinite: true,
         focusOnSelect: false,
         slidesToShow: 9,

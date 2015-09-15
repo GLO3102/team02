@@ -174,8 +174,7 @@ ul.dropdown-menu {
 }
 
 .carouselMultiple img{
-    width: 100%;
-    height: 100%;
+    width: 95%;
 }
 .carouselMultiple{
     width: 90%;
@@ -187,4 +186,7 @@ ul.dropdown-menu {
 }
 .slick-pre{
     left: -20px;
+}
+.marginImgCarousel{
+    margin-right: 1%;
 }
