@@ -2,7 +2,7 @@
  * Created by RoxanneLandry on 15-09-13.
  */
 function activeDisplay(){
-    $('navbarSmall').show;
+    document.getElementById('navbarSmall').style.display = "block"
 }
 
 function afficherSearch(id)
