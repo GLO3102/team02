@@ -1,7 +1,32 @@
 .image{
     padding-left: 17px;
-    padding-top: 100px;
+
+
 }
 
-#title{
+.titreP{
+    font-size: 60px;
+
+
+
+
+}
+
+.infoGenerale{
+    paggin-top:100px;
+    padding-left: 2%;
+    display: inline;
+    margin-left: 2%;
+    color: cornsilk;
+    font-size: 20px;
+}
+
+
+.info{
+
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 4%;
+    margin-left: 4%;
+    margin-bottom: 1%;
 }
