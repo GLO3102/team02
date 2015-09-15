@@ -169,13 +169,22 @@ ul.dropdown-menu {
     width: 434%;
 }
 
-.img-container img {
-    display: inline-block;
-    width: 12.9%;
-    max-height: 200px;
+.carouselMultiple div{
+    margin-right:5px;
 }
 
-.img-container {
-    padding-left: 3%;
-    padding-right: 3%;
+.carouselMultiple img{
+    width: 100%;
+    height: 100%;
+}
+.carouselMultiple{
+    width: 90%;
+    margin: 0 auto;
+    height: 10%;
+}
+.slick-next{
+    right: -20px;
+}
+.slick-pre{
+    left: -20px;
 }
