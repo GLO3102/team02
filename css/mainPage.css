@@ -135,19 +135,9 @@ a:hover {
     width: 2%;
 }
 
-.row {
-    margin-left: 2%;
-    margin-right: 2%;
-}
-
 h4 {
     color: #ababab;
     margin-left: 2%;
-}
-
-.col-sm-2 {
-    padding-left: 0;
-    padding-right: 0;
 }
 
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
@@ -188,10 +178,4 @@ ul.dropdown-menu {
 .img-container {
     padding-left: 3%;
     padding-right: 3%;
-}
-
-@media (max-width: 768px) {
-    #navbarSmall {
-        display: inline-block;
-    }
 }
