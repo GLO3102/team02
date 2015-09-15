@@ -179,10 +179,3 @@ ul.dropdown-menu {
     padding-left: 3%;
     padding-right: 3%;
 }
-@media screen and (max-width: 768px){
-    .img-container {
-        /* Cacher un certain nombre d'éléments avec nth-child ou autre*/
-        width: 5%;
-        float: left;
-    }
-}
