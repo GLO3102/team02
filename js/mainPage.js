@@ -13,3 +13,4 @@ function afficherSearch(id)
         searchBar.style.display = 'none';
     }
 }
+
