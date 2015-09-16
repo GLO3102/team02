@@ -1,19 +1,15 @@
 /**
  * Created by RoxanneLandry on 15-09-15.
  */
-function activeDisplay(){
-    var affichage = document.getElementById('navbarSmall');
-    var button = document.getElementById('buttonBurger');
-    alert(button === document.activeElement);
+function activeDisplay(id,id2){
+    var affichage = document.getElementById(id);
+    var button = document.getElementById(id2);
     if (affichage.style.display == "none" && button === document.activeElement){
         affichage.style.display = "block";
-        alert(button === document.activeElement);
     }
     else{
         affichage.style.display = "none";
-        alert(button === document.activeElement);
         button.blur();
-        alert(button === document.activeElement);
     }
 }
 

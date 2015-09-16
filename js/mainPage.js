@@ -4,10 +4,9 @@
 $(document).ready(function(){
     $('.carouselMultiple').slick({
         infinite: true,
-        focusOnSelect: false,
         slidesToShow: 9,
         slidesToScroll: 1,
-        speed: 300,
+        adaptiveHeight: true,
         responsive: [
             {
                 breakpoint: 1194,
