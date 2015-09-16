@@ -1,0 +1,134 @@
+html {
+    background: url("../images/Background.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    background: url("../images/Background.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-family: Andale Mono, monospace;
+    font-size: 18px;
+}
+
+.dropdown-menu {
+    background: rgba(35, 35, 35, 0.87);
+    border: 1px solid #1f1f1f;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    width: 450%;
+}
+
+.navbar-nav > li > .dropdown-menu.rightMenu {
+    width: 259%;
+}
+
+.dropdown-menu .divider {
+    background: rgba(96, 96, 96, 0.87);
+}
+
+.dropdown-menu > li > a {
+    color: #ababab;
+}
+
+.navbar-inverse {
+    background: rgba(35, 35, 35, 0.87);
+}
+
+#logo {
+    width: 119px;
+    height: 44px;
+    margin-right: 17px;
+}
+
+#searchIcon {
+    width: 23px;
+    height: 27px;
+    margin-right: 9px;
+}
+
+#parametreIcon {
+    width: 25px;
+    height: 27px;
+}
+
+#avatarIcon {
+    width: 29px;
+    height: 27px;
+}
+
+#inputSearch {
+    background-color: #222222;
+    font-size: small;
+    display: none;
+}
+
+#inputSearch:focus {
+    outline: none;
+    border-color: #d5d5d5;
+    box-shadow: 0 0 10px #d5d5d5;
+}
+
+.utilisateurDropdownSpace {
+    margin-left: 10%;
+    color: #8c8c8c;
+    font-size: 14px;
+}
+
+.utilisateurDropdownSpace.bottomSpace {
+    margin-bottom: 7%;
+}
+
+.containerDropdown {
+    width: 108%;
+    height: 120px;
+    display: inline-block;
+}
+
+.containerDropdown.colonne1Dropdown {
+    width: 23%;
+    border-right: solid 2px #abaaae;
+    max-height: 16px;
+}
+
+.containerDropdown.colonneDropdown {
+    width: 33%;
+    max-height: 110px;
+}
+
+.dropdownDescoverMenu {
+    top: 100%;
+    left: 0;
+    float: left;
+    padding: 5px 0;
+    margin: 2px 4px 0;
+    text-align: left;
+    list-style: none;
+    font-size: 13px;
+}
+
+a {
+    color: #8c8c8c;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.dropdownHeader {
+    height: 15%;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background: none;
+    color: #fff;
+
+}
+
+.navbar {
+    margin-bottom: 0;
+}

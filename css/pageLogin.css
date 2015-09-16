@@ -1,46 +1,47 @@
-body {
-    background: url(../images/Background.png) no-repeat center center fixed;
-    background-size: 200% 200%;
-}
-
 .input-group {
-    margin: 2%;
+    margin: 3%;
     color: white;
     width: 96%;
+    font-size: 10pt;
+}
+.shadowPurple:focus{
+    box-shadow: 0 0 10px #655d88;
 }
 
 .form-control {
     background-color: #464646;
     border: none;
     color: black;
-    font-size: 15pt;
+    font-size: 13pt;
 }
 
-.loginForm {
-    padding-top: 1%;
-    padding-bottom: 1%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
     .loginForm {
-        width: 30%;
-        margin-top: 5%;
-        zoom: 1;
+        width: 400px;
+        margin: 0 auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
     }
 }
 
-@media (max-width: 1080px) {
-    .loginForm {
-        width: 100%;
-        zoom: 3;
+@media (max-width: 1000px){
+    .loginForm{
+        width: 70%;
+        margin: auto auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
     }
 }
-
-.loginLogo {
-    width: 100%;
+#loginLogo {
+    width: 90%;
     margin-bottom: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
 .loginButtonDiv {
@@ -49,14 +50,25 @@ body {
 
 #loginButton {
     width: 100%;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
-    font-size: 15pt;
+    font-size: 13pt;
 }
 
 .joinUs {
-    font-size: 8pt;
+    font-size: 10pt;
     margin: 2%;
     color: white;
+}
+.btn{
+    color:white;
+    background-color: #4d4668;
+}
+.btn-primary{
+    border: none;
+    font-family: Andale Mono, monospace;
+}
+.btn-primary:hover{
+    background-color: #3c3556;
+}
+.linkColor:hover{
+    color: #3c3556;
 }
