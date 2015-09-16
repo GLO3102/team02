@@ -4,7 +4,8 @@
     width: 96%;
     font-size: 10pt;
 }
-.shadowPurple:focus{
+
+.shadowPurple:focus {
     box-shadow: 0 0 10px #655d88;
 }
 
@@ -26,8 +27,8 @@
     }
 }
 
-@media (max-width: 1000px){
-    .loginForm{
+@media (max-width: 1000px) {
+    .loginForm {
         width: 70%;
         margin: auto auto;
         position: absolute;
@@ -36,6 +37,7 @@
         transform: translateX(-50%) translateY(-50%);
     }
 }
+
 #loginLogo {
     width: 90%;
     margin-bottom: 10%;
@@ -58,17 +60,21 @@
     margin: 2%;
     color: white;
 }
-.btn{
-    color:white;
+
+.btn {
+    color: white;
     background-color: #4d4668;
 }
-.btn-primary{
+
+.btn-primary {
     border: none;
     font-family: Andale Mono, monospace;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background-color: #3c3556;
 }
-.linkColor:hover{
+
+.linkColor:hover {
     color: #3c3556;
 }

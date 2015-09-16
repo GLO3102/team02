@@ -1,10 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title></title>
+    <link rel="stylesheet" href="../css/movie.css">
+    <link rel="stylesheet" href="../css/bootstrap-theme.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
+
+    <link rel="stylesheet" href="../css/gabarit.css">
+    <script src="../js/gabarit.js"></script>
+    <script src="../js/mainPage.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="../js/pageMovie.js"></script>
+    <title>Actors</title>
 </head>
 <body>
+
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button id="buttonBurger" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#navbarSmall"
+                    aria-expanded="false" aria-controls="navbarSmall" onclick="activeDisplay()"
+                    onblur="activeDisplay()">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="mainPage.html"><img id="logo" src="../images/Logo.png"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">Browse <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <div class="containerDropdown">
+                            <div class="containerDropdown colonne1Dropdown">
+                                <ul class="dropdownDescoverMenuBigger">
+                                    <li><a href="#">Watchlist</a></li>
+                                    <li><a href="#">New movies</a></li>
+                                    <li><a href="#">New Tv Shows</a></li>
+                                    <li><a href="pageActor.html">Actors</a></li>
+                                </ul>
+                            </div>
+                            <div class="containerDropdown colonneDropdown">
+                                <div class="dropdownHeader"><a href="pageTvShow.html">Tv Shows</a></div>
+                                <div class="dropdown-menu-left">
+                                    <ul class="dropdownDescoverMenu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Comedies</a></li>
+                                        <li><a href="#">Trillers</a></li>
+                                        <li><a href="#">Documentaries</a></li>
+                                        <li><a href="#">Musicals</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-menu-right">
+                                    <ul class="dropdownDescoverMenu">
+                                        <li><a href="#">Romance</a></li>
+                                        <li><a href="#">Anime</a></li>
+                                        <li><a href="#">Dramas</a></li>
+                                        <li><a href="#">Classics</a></li>
+                                        <li><a href="#">Sci-Fi</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="containerDropdown colonneDropdown">
+                                <div class="dropdownHeader"><a href="pageMovie.html">Films</a></div>
+                                <div class="dropdown-menu-left">
+                                    <ul class="dropdownDescoverMenu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Comedies</a></li>
+                                        <li><a href="#">Trillers</a></li>
+                                        <li><a href="#">Documentaries</a></li>
+                                        <li><a href="#">Musicals</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-menu-right">
+                                    <ul class="dropdownDescoverMenu">
+                                        <li><a href="#">Romance</a></li>
+                                        <li><a href="#">Anime</a></li>
+                                        <li><a href="#">Dramas</a></li>
+                                        <li><a href="#">Classics</a></li>
+                                        <li><a href="#">Sci-Fi</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><img onclick="afficherSearch('inputSearch')" id="searchIcon"
+                                     src="../images/Search.png"><input id="inputSearch" type="search"
+                                                                       placeholder="Search" style="display: none"
+                                                                       onblur="afficherSearch('inputSearch')"></a>
+                </li>
+                <li><a href="#"><img id="parametreIcon" src="../images/Parametre.png"></a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false"><img id="avatarIcon" src="../images/avatar.png"> <span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu rightMenu">
+                        <li class="utilisateurDropdownSpace bottomSpace"><img id="avatarIcon"
+                                                                              src="../images/avatar.png"> USERNAME
+                        </li>
+                        <li><a href="pageLogin.html">Log out</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Report a problem</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <ul class="nav navbar-right" id="navbarSmall" style="display: none">
+            <li class="utilisateurDropdownSpace utilisateurDropdownSpaceSmall"><img id="avatarIcon"
+                                                                                    src="../images/avatar.png">
+                USERNAME
+            </li>
+            <li><a href="pageLogin.html">Log out</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Report a problem</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Tv Shows</a></li>
+            <li><a href="#">Actors</a></li>
+        </ul>
+    </div>
+</nav>
 
 </body>
 </html>

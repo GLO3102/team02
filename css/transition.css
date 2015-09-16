@@ -1,19 +1,13 @@
-html {
-    background-color: #080808;
-}
-
-body {
-    font-family: Andale Mono, monospace;
-    font-size: 18px;
-}
-
-.carousel-control {
-    width: 2%;
-}
-
 h4 {
     color: #ababab;
     margin-left: 2%;
+}
+
+h2 {
+    font-weight: bolder;
+    margin-left: 5%;
+    color: #adadad;
+    font-size: 13pt;
 }
 
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
@@ -27,22 +21,6 @@ h4 {
 .carousel-inner > .item > img {
     margin: 0 auto;
     max-height: 400px;
-}
-
-.icon-bar {
-    color: #8c8c8c;
-}
-
-#navbarSmall {
-    font-size: 12px;
-}
-
-.utilisateurDropdownSpace.utilisateurDropdownSpaceSmall {
-    margin-left: 2%;
-}
-
-ul.dropdown-menu {
-    width: 434%;
 }
 
 .carouselMultiple div {

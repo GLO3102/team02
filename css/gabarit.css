@@ -109,6 +109,17 @@ body {
     font-size: 13px;
 }
 
+.dropdownDescoverMenuBigger {
+    top: 100%;
+    left: 0;
+    float: left;
+    padding: 5px 0;
+    margin: 2px 4px 0;
+    text-align: left;
+    list-style: none;
+    font-size: 14px;
+}
+
 a {
     color: #8c8c8c;
 }
