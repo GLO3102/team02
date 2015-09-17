@@ -1,7 +1,7 @@
 /**
  * Created by RoxanneLandry on 15-09-13.
  */
-$(document).ready(function(){
+$(document).ready(function () {
     $('.carouselMultiple').slick({
         infinite: true,
         focusOnSelect: false,
@@ -13,7 +13,7 @@ $(document).ready(function(){
                 breakpoint: 1194,
                 settings: {
                     slidesToShow: 8,
-                    slidesToScroll: 1,
+                    slidesToScroll: 1
                 }
             },
             {

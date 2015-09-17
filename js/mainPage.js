@@ -1,18 +1,18 @@
 /**
  * Created by RoxanneLandry on 15-09-13.
  */
-$(document).ready(function(){
+$(document).ready(function () {
     $('.carouselMultiple').slick({
         infinite: true,
         slidesToShow: 9,
         slidesToScroll: 1,
-        adaptiveHeight:true,
+        adaptiveHeight: true,
         responsive: [
             {
                 breakpoint: 1194,
                 settings: {
                     slidesToShow: 8,
-                    slidesToScroll: 1,
+                    slidesToScroll: 1
 
                 }
             },
@@ -54,7 +54,7 @@ $(document).ready(function(){
         ]
     });
 });
-$(window).resize(function reload(){
+$(window).resize(function reload() {
     location.reload();
     /*Mettre image height default*/
 
@@ -74,7 +74,7 @@ $(window).resize(function reload(){
     }*/
 });
 
-$(document).ready(function findMaxHeight(){
+$(document).ready(function findMaxHeight() {
     var maxHeight = 0;
     var divImg = document.getElementById('carouselAll');
     var img = divImg.getElementsByTagName('img');
