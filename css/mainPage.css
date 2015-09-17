@@ -51,7 +51,6 @@ ul.dropdown-menu {
 
 .carouselMultiple img {
     max-width: 95%;
-    height: auto;
 }
 
 .carouselMultiple {
@@ -70,4 +69,10 @@ ul.dropdown-menu {
 
 .marginImgCarousel {
     margin-right: 1%;
+}
+.heightImg{
+    height: 100%;
+}
+.hauteur{
+    height: 242px;
 }

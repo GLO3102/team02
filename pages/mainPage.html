@@ -26,9 +26,8 @@
     <div class="container-fluid">
         <div class="navbar-header">
             <button id="buttonBurger" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#navbarSmall"
-                    aria-expanded="false" aria-controls="navbarSmall" onclick="activeDisplay('navbarSmall', 'buttonBurger')"
-                    onblur="activeDisplay('navbarSmall', 'buttonBurger')">
+                    data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar" >
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -37,7 +36,7 @@
         </div>
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="nav navbar-nav">
-                <li class="dropdown">
+                <li class="dropdown" id="browseDropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                        aria-expanded="false">Browse <span class="caret"></span></a>
                     <ul class="dropdown-menu">
@@ -96,7 +95,7 @@
                     </ul>
                 </li>
             </ul>
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right" id="navbarRight">
                 <li><a href="#"><img onclick="afficherSearch('inputSearch')" id="searchIcon"
                                      src="../images/SearchIcone.png"><input id="inputSearch" type="search"
                                                                        placeholder="Search" style="display: none"
@@ -118,21 +117,17 @@
                     </ul>
                 </li>
             </ul>
-        </div>
-        <div class="collapse navbar-collapse" id="navbarSmall"  style="display: none">
-        <ul class="nav navbar-right">
-            <li class="utilisateurDropdownSpace utilisateurDropdownSpaceSmall"><img id="avatarIcon"
-                                                                                    src="../images/AvatarIcone.png">
-                USERNAME
-            </li>
-            <li><a href="pageLogin.html">Log out</a></li>
-            <li><a href="#">Settings</a></li>
-            <li><a href="#">Help</a></li>
-            <li><a href="#">Report a problem</a></li>
-            <li><a href="transitionMovies.html">Movies</a></li>
-            <li><a href="transitionTvShows.html">Tv Shows</a></li>
-            <li><a href="transitionActors.html">Actors</a></li>
-        </ul>
+            <ul class="nav navbar-nav navbar-right" id="navbarSmall">
+                <li class="marginUserSmall"><img id="avatarIconSmall" src="../images/AvatarIcone.png"> USERNAME </li>
+                <li><a href="#">Log out</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Report a problem</a></li>
+                <li><a href="#">Watchlist</a></li>
+                <li><a href="transitionTvShows.html">Tv Shows</a></li>
+                <li><a href="transitionMovies.html">Movies</a></li>
+                <li><a href="transitionActors.html">Actors</a></li>
+            </ul>
         </div>
     </div>
 </nav>
@@ -173,22 +168,20 @@
 <div>
     <h4> Popular Movies</h4>
 </div>
-
 <div class="carouselMultiple">
-    <a href="#"><img src='../images/Movies/127hours.jpg'/></a>
-    <a href="#"><img src='../images/Movies/Jurassic.jpg'/></a>
-    <a href="#"><img src='../images/Movies/FindingNemo.jpg'/></a>
-    <a href="#"><img src='../images/Movies/Inception.jpg'/></a>
-    <a href="#"><img src='../images/Movies/Prisonner.jpg'/></a>
-    <a href="#"><img src='../images/Movies/SnowWhite.jpg'/></a>
-    <a href="#"><img src='../images/Lorax.jpg'/></a>
-    <a href="#"><img src='../images/Movies/Startrek.jpg'/></a>
-    <a href="#"><img src='../images/Movies/Titanic.jpg'/></a>
-    <a href="#"><img src='../images/Movies/Wintersbone.jpg'/></a>
-    <a href="#"><img src='../images/Movies/Alice.jpg'/></a>
-    <a href="#"><img src='../images/Movies/Fury.jpg'/></a>
-    <a href="pageMovie.html"><img src='../images/Movies/Frozen.jpg'/></a>
-    <a href="#"><img src='../images/Movies/Amélie.jpg'/></a>
+    <a class="hauteur" href="#"><img class="heightImg" src='../images/Movies/Jurassic.jpg'/></a>
+    <a class="hauteur" href="#"><img class="heightImg" src='../images/Movies/FindingNemo.jpg'/></a>
+    <a class="hauteur" href="#"><img class="heightImg" src='../images/Movies/Inception.jpg'/></a>
+    <a class="hauteur" href="#"><img class="heightImg" src='../images/Movies/Prisonner.jpg'/></a>
+    <a class="hauteur" href="#"><img class="heightImg" src='../images/Movies/SnowWhite.jpg'/></a>
+    <a class="hauteur" href="#"><img class="heightImg" src='../images/Lorax.jpg'/></a>
+    <a class="hauteur" href="#"><img class="heightImg" src='../images/Movies/Startrek.jpg'/></a>
+    <a class="hauteur" href="#"><img class="heightImg" src='../images/Movies/Titanic.jpg'/></a>
+    <a class="hauteur" href="#"><img class="heightImg" src='../images/Movies/Wintersbone.jpg'/></a>
+    <a class="hauteur" href="#"><img class="heightImg" src='../images/Movies/Alice.jpg'/></a>
+    <a class="hauteur" href="#"><img class="heightImg" src='../images/Movies/Fury.jpg'/></a>
+    <a class="hauteur" href="pageMovie.html"><img class="heightImg" src='../images/Movies/Frozen.jpg'/></a>
+    <a class="hauteur" href="#"><img class="heightImg" src='../images/Movies/Amélie.jpg'/></a>
 </div>
 
 <div>

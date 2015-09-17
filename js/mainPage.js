@@ -6,13 +6,14 @@ $(document).ready(function(){
         infinite: true,
         slidesToShow: 9,
         slidesToScroll: 1,
-        adaptiveHeight: true,
+        adaptiveHeight:true,
         responsive: [
             {
                 breakpoint: 1194,
                 settings: {
                     slidesToShow: 8,
                     slidesToScroll: 1,
+
                 }
             },
             {
@@ -46,4 +47,5 @@ $(document).ready(function(){
         ]
     });
 });
+
 
