@@ -38,14 +38,56 @@ $(document).ready(function(){
                 }
             },
             {
-                breakpoint: 768,
+                breakpoint: 450,
                 settings: {
                     slidesToShow: 4,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 3,
                     slidesToScroll: 1
                 }
             }
         ]
     });
 });
+$(window).resize(function findMaxHeight(){
+    /*Mettre image height default*/
+    
 
+    /*var maxHeight = 0;
+    var divImg = document.getElementById('carouselAll');
+    var img = divImg.getElementsByTagName('img');
+    for (var i=0; i < img.length; i++){
+        if(img[i].height > maxHeight){
+            maxHeight = img[i].height;
+        }
+    }
+    var divImg4 = document.getElementById('carouselAll');
+    var img4 = divImg4.getElementsByTagName('img');
+    for (var j=0; j < img4.length; j++){
+        img4[j].height = maxHeight;
+    }*/
+
+    location.reload();
+});
+
+$(document).ready(function findMaxHeight(){
+    var maxHeight = 0;
+    var divImg = document.getElementById('carouselAll');
+    var img = divImg.getElementsByTagName('img');
+    for (var i=0; i < img.length; i++){
+        if(img[i].height > maxHeight){
+            maxHeight = img[i].height;
+        }
+    }
+    var divImg4 = document.getElementById('carouselAll');
+    var img4 = divImg4.getElementsByTagName('img');
+    for (var j=0; j < img4.length; j++){
+        img4[j].height = maxHeight;
+    }
+});
 

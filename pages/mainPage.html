@@ -165,30 +165,31 @@
     </a>
 </div>
 
+<div id="carouselAll">
 <div>
     <h4> Popular Movies</h4>
 </div>
-<div class="carouselMultiple" id="carouselMultiple">
-    <a class="heightImgCarousel" href="#"><img class="heightImg" src='../images/Movies/Jurassic.jpg'/></a>
-    <a class="heightImgCarousel" href="#"><img class="heightImg" src='../images/Movies/Inception.jpg'/></a>
-    <a class="heightImgCarousel" href="#"><img class="heightImg" src='../images/Movies/Prisonner.jpg'/></a>
-    <a class="heightImgCarousel" href="#"><img class="heightImg" src='../images/Movies/SnowWhite.jpg'/></a>
-    <a class="heightImgCarousel" href="#"><img class="heightImg" src='../images/Lorax.jpg'/></a>
-    <a class="heightImgCarousel" href="#"><img class="heightImg" src='../images/Movies/Startrek.jpg'/></a>
-    <a class="heightImgCarousel" href="#"><img class="heightImg" src='../images/Movies/Titanic.jpg'/></a>
-    <a class="heightImgCarousel" href="#"><img class="heightImg" src='../images/Movies/Wintersbone.jpg'/></a>
-    <a class="heightImgCarousel" href="#"><img class="heightImg" src='../images/Movies/Alice.jpg'/></a>
-    <a class="heightImgCarousel" href="#"><img class="heightImg" src='../images/Movies/Fury.jpg'/></a>
-    <a class="heightImgCarousel" href="pageMovie.html"><img class="heightImg" src='../images/Movies/Frozen.jpg'/></a>
-    <a class="heightImgCarousel" href="#"><img class="heightImg" src='../images/Movies/Amélie.jpg'/></a>
-    <a class="heightImgCarousel" href="#"><img class="heightImg" src='../images/Movies/FindingNemo.jpg'/></a>
+<div class="carouselMultiple">
+    <a href="#"><img src='../images/Movies/Jurassic.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Inception.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Prisonner.jpg'/></a>
+    <a href="#"><img src='../images/Movies/SnowWhite.jpg'/></a>
+    <a href="#"><img src='../images/Lorax.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Startrek.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Titanic.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Wintersbone.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Alice.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Fury.jpg'/></a>
+    <a href="pageMovie.html"><img src='../images/Movies/Frozen.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Amélie.jpg'/></a>
+    <a href="#"><img src='../images/Movies/FindingNemo.jpg'/></a>
 </div>
 
 <div>
     <h4> Popular Tv Shows</h4>
 </div>
 
-<div class="carouselMultiple" id="carouselMultiple">
+<div class="carouselMultiple">
     <a href="#"><img src='../images/Tv%20Shows/DareDevil.jpg'/></a>
     <a href="#"><img src='../images/Tv%20Shows/BreakingBad.jpg'/></a>
     <a href="#"><img src='../images/Tv%20Shows/Dexter.jpg'/></a>
@@ -208,14 +209,14 @@
     <h4> Popular Actors</h4>
 </div>
 
-<div class="carouselMultiple" id="carouselMultiple">
+<div class="carouselMultiple">
     <a href="#"><img src='../images/Actors/Adam.jpg'/></a>
     <a href="#"><img src='../images/Actors/Angelina.jpg'/></a>
     <a href="#"><img src='../images/Actors/Brad.jpg'></a>
     <a href="#"><img src='../images/Actors/Bradley.jpg'/></a>
     <a href="#"><img src='../images/Actors/Channing.jpg'/></a>
     <a href="#"><img src='../images/Actors/Angelina.jpg'/></a>
-    <a href="#"><img src='../images/Actors/Hilary.jpg'>
+    <a href="#"><img src='../images/Actors/Hilary.jpg'></a>
     <a href="#"><img src='../images/Actors/Jack.jpg'/></a>
     <a href="#"><img src='../images/Actors/Jennifer.jpg'/></a>
     <a href="#"><img src='../images/Actors/Jessica.jpg'/></a>
@@ -224,20 +225,6 @@
     <a href="#"><img src='../images/Actors/Leonardo.jpg'/></a>
     <a href="#"><img src='../images/Actors/Morgan.jpg'/></a>
 </div>
-<script type="text/javascript">
-    $(document).ready(function findMaxHeight(){
-        var maxHeight = 0;
-        var divImg = document.getElementById('carouselMultiple');
-        var img = divImg.getElementsByTagName('img');
-        for (var i=0; i < img.length; i++){
-            if(img[i].height > maxHeight){
-                maxHeight = img[i].height;
-            }
-        }
-        alert(maxHeight);
-    });
-    $(window).resize(function(){ findMaxHeight()});
-
-</script>
+</div>
 </body>
 </html>
