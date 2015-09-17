@@ -5,29 +5,32 @@
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/gabarit.css"/>
     <link rel="stylesheet" href="../css/pageLogin.css"/>
     <script src="../js/pageLogin.js"></script>
-    <title>Connexion - Umovie</title>
+    <title>Connection - Umovie</title>
 </head>
 <body>
 <div class="loginForm">
-    <img class="loginLogo" src="../images/Logo.png"/>
+    <img id="loginLogo" src="../images/Logo.png"/>
 
     <form class="loginFormInput">
         <div class="input-group">
-            <input type="text" id="usernameInput" class="form-control" placeholder="Nom d'utilisateur"/>
+            <input type="text" id="usernameInput" class="form-control shadowPurple" placeholder="Username"/>
         </div>
         <div class="input-group">
-            <input type="password" id="passwordInput" class="form-control" placeholder="Mot de passe"/>
+            <input type="password" id="passwordInput" class="form-control shadowPurple" placeholder="Password"/>
         </div>
         <div class="input-group">
-            <input type="checkbox"/> Se souvenir de moi
+            <input type="checkbox"/> Remember me
+            <a class="pull-right linkColor" href="#">Forgot password?</a>
         </div>
         <div class="input-group loginButtonDiv">
-            <input type="button" id="loginButton" class="btn btn-danger" value="Se connecter" onclick="sendLoginRequest()"></input>
+            <input type="button" id="loginButton" class="btn btn-primary btn-lg gradient" value="Connect"
+                   onclick="sendLoginRequest()"></input>
         </div>
         <div class="joinUs">
-            <i>Vous n'avez pas encore de compte ?</i> <a href="pageRegister.html">Rejoignez nous !</a>
+            <i>No account ?</i> <a class="linkColor" href="pageRegister.html">Sign up !</a>
         </div>
     </form>
 </div>

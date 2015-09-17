@@ -4,16 +4,16 @@
 $(document).ready(function(){
     $('.carouselMultiple').slick({
         infinite: true,
+        focusOnSelect: false,
         slidesToShow: 9,
         slidesToScroll: 1,
-        adaptiveHeight:true,
+        speed: 300,
         responsive: [
             {
                 breakpoint: 1194,
                 settings: {
                     slidesToShow: 8,
                     slidesToScroll: 1,
-
                 }
             },
             {
@@ -47,5 +47,4 @@ $(document).ready(function(){
         ]
     });
 });
-
 

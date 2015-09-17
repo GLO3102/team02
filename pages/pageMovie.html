@@ -1,149 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../css/movie.css">
+    <link rel="stylesheet" href="../css/pageMovie.css">
     <link rel="stylesheet" href="../css/bootstrap-theme.css">
     <link rel="stylesheet" href="../css/bootstrap.css">
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
 
-    <link rel="stylesheet" href="../css/mainPage.css">
+    <link rel="stylesheet" href="../css/gabarit.css">
+    <script src="../js/gabarit.js"></script>
     <script src="../js/mainPage.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Umovie</title>
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarSmall"
-                        aria-expanded="false" aria-controls="navbarSmall">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="mainPage.html"><img id="logo" src="../images/Logo.png"></a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-                <ul class="nav navbar-nav">
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                           aria-expanded="false">Découvrir <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <div class="containerDropdown">
-                                <div class="containerDropdown colonne1Dropdown">
-                                    <ul class="dropdownDescoverMenu">
-                                        <li><a href="#">Ma liste</a></li>
-                                        <li><a href="#">Nouveaux films</a></li>
-                                        <li><a href="#">Nouvelles séries TV</a></li>
-                                        <li><a href="pageActor.html">Acteurs</a></li>
-                                    </ul>
-                                </div>
-                                <div class="containerDropdown colonneDropdown">
-                                    <div class="dropdownHeader"><a href="pageTvShow.html">Séries TV</a></div>
-                                    <div class="dropdown-menu-left">
-                                        <ul class="dropdownDescoverMenu">
-                                            <li><a href="#">Action</a></li>
-                                            <li><a href="#">Comédie</a></li>
-                                            <li><a href="#">Horreur</a></li>
-                                            <li><a href="#">Documentaire</a></li>
-                                            <li><a href="#">Musicale</a></li>
-                                    </div>
-                                    <div class="dropdown-menu-right">
-                                        <ul class="dropdownDescoverMenu">
-                                            <li><a href="#">Romance</a></li>
-                                            <li><a href="#">Animation</a></li>
-                                            <li><a href="#">Drame</a></li>
-                                            <li><a href="#">Fantastique</a></li>
-                                            <li><a href="#">Science fiction</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="containerDropdown colonneDropdown">
-                                    <div class="dropdownHeader"><a href="pageMovie.html">Films</a></div>
-                                    <div class="dropdown-menu-left">
-                                        <ul class="dropdownDescoverMenu">
-                                            <li><a href="#">Action</a></li>
-                                            <li><a href="#">Comédie</a></li>
-                                            <li><a href="#">Horreur</a></li>
-                                            <li><a href="#">Documentaire</a></li>
-                                            <li><a href="#">Musicale</a></li>
-                                    </div>
-                                    <div class="dropdown-menu-right">
-                                        <ul class="dropdownDescoverMenu">
-                                            <li><a href="#">Romance</a></li>
-                                            <li><a href="#">Animation</a></li>
-                                            <li><a href="#">Drame</a></li>
-                                            <li><a href="#">Fantastique</a></li>
-                                            <li><a href="#">Science fiction</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </ul>
-                    </li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><img onclick="afficherSearch('inputSearch')" id="searchIcon"
-                                         src="../images/Search.png"><input id="inputSearch" type="search"
-                                                                           placeholder="Search" style="display: none"
-                                                                           onblur="afficherSearch('inputSearch')"></a>
-                    </li>
-                    <li><a href="#"><img id="parametreIcon" src="../images/Parametre.png"></a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                           aria-expanded="false"><img id="avatarIcon" src="../images/avatar.png"> <span
-                                class="caret"></span></a>
-                        <ul class="dropdown-menu rightMenu">
-                            <li class="utilisateurDropdownSpace">Utilisé en tant que :</li>
-                            <li class="utilisateurDropdownSpace bottomSpace"><img id="avatarIcon"
-                                                                                  src="../images/avatar.png"> USERNAME
-                            </li>
-                            <li><a href="pageLogin.html">Déconnexion</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Aide</a></li>
-                            <li><a href="#">Signaler un problème</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <ul class="nav navbar-nav navbar-right" id="navbarSmall" style="display: none">
-                <li class="utilisateurDropdownSpace utilisateurDropdownSpaceSmall">Utilisé en tant que :</li>
-                <li class="utilisateurDropdownSpace utilisateurDropdownSpaceSmall"><img id="avatarIcon"
-                                                                                        src="../images/avatar.png">
-                    USERNAME
-                </li>
-                <li><a href="pageLogin.html">Déconnexion</a></li>
-                <li><a href="#">Option</a></li>
-                <li><a href="#">Aide</a></li>
-                <li><a href="#">Signaler un problème</a></li>
-                <li><a href="#">Films</a></li>
-                <li><a href="#">Séries Tv</a></li>
-                <li><a href="#">Acteurs</a></li>
-            </ul>
-        </div>
-    </nav>
+    <script src="../js/pageMovie.js"></script>
+    <title>Movies</title>
 </head>
 <body>
-<div class="infoGenerale">
-    <img class="image" src='../images/frzncover.jpg'>
-    <div class = "info">
-        <h3 class = "titreP">
-            Frozen
-        </h3>
 
-        <a href="http://freedisneymovie4u.blogspot.ca/2014/06/frozen-2013.html" title="Frozen Streaming"> Frozen Streaming </a>
-        <p>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button id="buttonBurger" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar" >
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="mainPage.html"><img id="logo" src="../images/Logo.png"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="nav navbar-nav">
+                <li class="dropdown" id="browseDropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">Browse <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <div class="containerDropdown">
+                            <div class="containerDropdown colonne1Dropdown">
+                                <ul class="dropdownDescoverMenuBigger">
+                                    <li><a href="#">Watchlist</a></li>
+                                    <li><a href="#">New movies</a></li>
+                                    <li><a href="#">New Tv Shows</a></li>
+                                    <li><a href="transitionActors.html">Actors</a></li>
+                                </ul>
+                            </div>
+                            <div class="containerDropdown colonneDropdown">
+                                <div class="dropdownHeader"><a href="transitionTvShows.html">Tv Shows</a></div>
+                                <div class="dropdown-menu-left">
+                                    <ul class="dropdownDescoverMenu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Comedies</a></li>
+                                        <li><a href="#">Trillers</a></li>
+                                        <li><a href="#">Documentaries</a></li>
+                                        <li><a href="#">Musicals</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-menu-right">
+                                    <ul class="dropdownDescoverMenu">
+                                        <li><a href="#">Romance</a></li>
+                                        <li><a href="#">Anime</a></li>
+                                        <li><a href="#">Dramas</a></li>
+                                        <li><a href="#">Classics</a></li>
+                                        <li><a href="#">Sci-Fi</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="containerDropdown colonneDropdown">
+                                <div class="dropdownHeader"><a href="transitionMovies.html">Films</a></div>
+                                <div class="dropdown-menu-left">
+                                    <ul class="dropdownDescoverMenu">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Comedies</a></li>
+                                        <li><a href="#">Trillers</a></li>
+                                        <li><a href="#">Documentaries</a></li>
+                                        <li><a href="#">Musicals</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-menu-right">
+                                    <ul class="dropdownDescoverMenu">
+                                        <li><a href="#">Romance</a></li>
+                                        <li><a href="#">Anime</a></li>
+                                        <li><a href="#">Dramas</a></li>
+                                        <li><a href="#">Classics</a></li>
+                                        <li><a href="#">Sci-Fi</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right" id="navbarRight">
+                <li><a href="#"><img onclick="afficherSearch('inputSearch')" id="searchIcon"
+                                     src="../images/SearchIcone.png"><input id="inputSearch" type="search"
+                                                                            placeholder="Search" style="display: none"
+                                                                            onblur="afficherSearch('inputSearch')"></a>
+                </li>
+                <li><a href="#"><img id="parametreIcon" src="../images/Parametre.png"></a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false"><img id="avatarIcon" src="../images/AvatarIcone.png"> <span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu rightMenu">
+                        <li class="utilisateurDropdownSpace bottomSpace"><img id="avatarIcon"
+                                                                              src="../images/AvatarIcone.png"> USERNAME
+                        </li>
+                        <li><a href="pageLogin.html">Log out</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Report a problem</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right" id="navbarSmall">
+                <li class="marginUserSmall"><img id="avatarIconSmall" src="../images/AvatarIcone.png"> USERNAME </li>
+                <li><a href="pageLogin.html">Log out</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Report a problem</a></li>
+                <li><a href="#">Watchlist</a></li>
+                <li><a href="transitionTvShows.html">Tv Shows</a></li>
+                <li><a href="transitionMovies.html">Movies</a></li>
+                <li><a href="transitionActors.html">Actors</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="infoGenerale">
+    <img class="image" src='../images/Movies/FrozenPoster.jpg'>
+    <button class="playbutton" onclick="player()"></button>
+    <div class="info">
+        <p class="titreP">
+            Frozen
+        </p>
+
+        <p class="description">
             Genre: Animation, Aventure, Comedy
         </p>
-        <p>
-            Rating: General
+
+        <p class="description">
+            Rating: Everyone
         </p>
+
         <p>
             Release Date : November 19, 2013
         </p>
-        <p>
-            When the newly crowned Queen Elsa accidentally uses her power to turn things into ice <br/> to curse her home in infinite winter, her sister, Anna, teams up with a mountain man,<br/> his playful reindeer, and a snowman to change the weather condition.
+
+        <p class="description">
+            When the newly crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in
+            infinite winter, her sister, Anna, teams up with a mountain man, his playful reindeer, and a snowman to
+            change the weather condition.
         </p>
+
+        <p class="description">
+            Casting: Kristen Bell, Idina Menzel, Jonathan Groff
+        </p>
+        <a href="https://geo.itunes.apple.com/ca/movie/frozen/id741238771?mt=6"
+           style="display:inline-block;overflow:hidden;background:url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_itunes-lrg.svg) no-repeat;width:165px;height:40px;"></a>
 
     </div>
 

@@ -9,18 +9,19 @@
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
 
-    <link rel="stylesheet" href="../css/mainPage.css">
+    <link rel="stylesheet" href="../css/transition.css">
     <link rel="stylesheet" href="../css/gabarit.css">
     <script src="../js/gabarit.js"></script>
-    <script src="../js/mainPage.js"></script>
+    <script src="../js/transition.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>UMovie</title>
+    <title>Actors</title>
 </head>
 <body>
 
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="../css/slick-1.5.7/slick/slick.min.js"></script>
+
 
 <nav class="navbar navbar-inverse">
     <div class="container-fluid">
@@ -98,8 +99,8 @@
             <ul class="nav navbar-nav navbar-right" id="navbarRight">
                 <li><a href="#"><img onclick="afficherSearch('inputSearch')" id="searchIcon"
                                      src="../images/SearchIcone.png"><input id="inputSearch" type="search"
-                                                                       placeholder="Search" style="display: none"
-                                                                       onblur="afficherSearch('inputSearch')"></a>
+                                                                            placeholder="Search" style="display: none"
+                                                                            onblur="afficherSearch('inputSearch')"></a>
                 </li>
                 <li><a href="#"><img id="parametreIcon" src="../images/Parametre.png"></a></li>
                 <li class="dropdown">
@@ -131,113 +132,151 @@
         </div>
     </div>
 </nav>
+<div>
+    <h4> A - D </h4>
+</div>
 
-<div id="carousel-1" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-1" data-slide-to="1"></li>
-        <li data-target="#carousel-1" data-slide-to="2"></li>
-        <li data-target="#carousel-1" data-slide-to="3"></li>
-        <li data-target="#carousel-1" data-slide-to="4"></li>
-    </ol>
-    <div class="carousel-inner">
-        <div class="item active">
-            <img src="../images/Movies/Agenger.jpg" alt="First Slide">
-        </div>
-        <div class="item">
-            <img src="../images/Movies/BreakingBad.jpg" alt="Third Slide">
-        </div>
-        <div class="item">
-            <img src="../images/Movies/Interstellar.jpg" alt="Four Slide">
-        </div>
-        <div class="item">
-            <img src="../images/Movies/Simpson.jpg" alt="Six Slide">
-        </div>
-        <div class="item">
-            <img src="../images/Movies/UndertheDome.jpg" alt="Seven Slide">
-        </div>
-    </div>
-    <a class="carousel-control left" href="#carousel-1" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-    </a>
-    <a class="carousel-control right" href="#carousel-1" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-    </a>
+<div class="carouselMultiple">
+    <a href="#"><img src='../images/Movies/127hours.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Jurassic.jpg'/></a>
+    <a href="#"><img src='../images/Movies/FindingNemo.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Inception.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Prisonner.jpg'/></a>
+    <a href="#"><img src='../images/Movies/SnowWhite.jpg'/></a>
+    <a href="#"><img src='../images/Lorax.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Startrek.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Titanic.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Wintersbone.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Alice.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Fury.jpg'/></a>
+    <a href="pageMovie.html"><img src='../images/Movies/Frozen.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Amélie.jpg'/></a>
 </div>
 
 <div>
-    <h4> Popular Movies</h4>
+    <h4> E - H </h4>
 </div>
-<div class="carouselMultiple" id="carouselMultiple">
-    <a class="heightImgCarousel" href="#"><img class="heightImg" src='../images/Movies/Jurassic.jpg'/></a>
-    <a class="heightImgCarousel" href="#"><img class="heightImg" src='../images/Movies/Inception.jpg'/></a>
-    <a class="heightImgCarousel" href="#"><img class="heightImg" src='../images/Movies/Prisonner.jpg'/></a>
-    <a class="heightImgCarousel" href="#"><img class="heightImg" src='../images/Movies/SnowWhite.jpg'/></a>
-    <a class="heightImgCarousel" href="#"><img class="heightImg" src='../images/Lorax.jpg'/></a>
-    <a class="heightImgCarousel" href="#"><img class="heightImg" src='../images/Movies/Startrek.jpg'/></a>
-    <a class="heightImgCarousel" href="#"><img class="heightImg" src='../images/Movies/Titanic.jpg'/></a>
-    <a class="heightImgCarousel" href="#"><img class="heightImg" src='../images/Movies/Wintersbone.jpg'/></a>
-    <a class="heightImgCarousel" href="#"><img class="heightImg" src='../images/Movies/Alice.jpg'/></a>
-    <a class="heightImgCarousel" href="#"><img class="heightImg" src='../images/Movies/Fury.jpg'/></a>
-    <a class="heightImgCarousel" href="pageMovie.html"><img class="heightImg" src='../images/Movies/Frozen.jpg'/></a>
-    <a class="heightImgCarousel" href="#"><img class="heightImg" src='../images/Movies/Amélie.jpg'/></a>
-    <a class="heightImgCarousel" href="#"><img class="heightImg" src='../images/Movies/FindingNemo.jpg'/></a>
+
+<div class="carouselMultiple">
+    <a href="#"><img src='../images/Movies/127hours.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Jurassic.jpg'/></a>
+    <a href="#"><img src='../images/Movies/FindingNemo.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Inception.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Prisonner.jpg'/></a>
+    <a href="#"><img src='../images/Movies/SnowWhite.jpg'/></a>
+    <a href="#"><img src='../images/Lorax.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Startrek.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Titanic.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Wintersbone.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Alice.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Fury.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Frozen.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Amélie.jpg'/></a>
 </div>
 
 <div>
-    <h4> Popular Tv Shows</h4>
+    <h4> I - L </h4>
 </div>
 
-<div class="carouselMultiple" id="carouselMultiple">
-    <a href="#"><img src='../images/Tv%20Shows/DareDevil.jpg'/></a>
-    <a href="#"><img src='../images/Tv%20Shows/BreakingBad.jpg'/></a>
-    <a href="#"><img src='../images/Tv%20Shows/Dexter.jpg'/></a>
-    <a href="#"><img src='../images/Tv%20Shows/DoctorWho.jpg'/></a>
-    <a href="#"><img src='../images/Tv%20Shows/Friends.jpg'/></a>
-    <a href="#"><img src='../images/Tv%20Shows/GameOfTrone.jpg'/></a>
-    <a href="#"><img src='../images/Tv%20Shows/Glee.jpg'/></a>
-    <a href="#"><img src='../images/Tv%20Shows/Hannibal.jpg'/></a>
-    <a href="#"><img src='../images/Tv%20Shows/Heroes.jpg'/></a>
-    <a href="#"><img src='../images/Tv%20Shows/VampireDairy.jpg'/></a>
-    <a href="#"><img src='../images/Tv%20Shows/DoctorWho.jpg'/></a>
-    <a href="#"><img src='../images/Tv%20Shows/Smallville.jpg'/></a>
-    <a href="#"><img src='../images/Tv%20Shows/WalkingDead.jpg'/></a>
+<div class="carouselMultiple">
+    <a href="#"><img src='../images/Movies/127hours.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Jurassic.jpg'/></a>
+    <a href="#"><img src='../images/Movies/FindingNemo.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Inception.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Prisonner.jpg'/></a>
+    <a href="#"><img src='../images/Movies/SnowWhite.jpg'/></a>
+    <a href="#"><img src='../images/Lorax.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Startrek.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Titanic.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Wintersbone.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Alice.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Fury.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Frozen.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Amélie.jpg'/></a>
 </div>
 
 <div>
-    <h4> Popular Actors</h4>
+    <h4> M - P </h4>
 </div>
 
-<div class="carouselMultiple" id="carouselMultiple">
-    <a href="#"><img src='../images/Actors/Adam.jpg'/></a>
-    <a href="#"><img src='../images/Actors/Angelina.jpg'/></a>
-    <a href="#"><img src='../images/Actors/Brad.jpg'></a>
-    <a href="#"><img src='../images/Actors/Bradley.jpg'/></a>
-    <a href="#"><img src='../images/Actors/Channing.jpg'/></a>
-    <a href="#"><img src='../images/Actors/Angelina.jpg'/></a>
-    <a href="#"><img src='../images/Actors/Hilary.jpg'>
-    <a href="#"><img src='../images/Actors/Jack.jpg'/></a>
-    <a href="#"><img src='../images/Actors/Jennifer.jpg'/></a>
-    <a href="#"><img src='../images/Actors/Jessica.jpg'/></a>
-    <a href="#"><img src='../images/Actors/John.jpg'/></a>
-    <a href="#"><img src='../images/Actors/JenniferA.jpg'/></a>
-    <a href="#"><img src='../images/Actors/Leonardo.jpg'/></a>
-    <a href="#"><img src='../images/Actors/Morgan.jpg'/></a>
+<div class="carouselMultiple">
+    <a href="#"><img src='../images/Movies/127hours.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Jurassic.jpg'/></a>
+    <a href="#"><img src='../images/Movies/FindingNemo.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Inception.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Prisonner.jpg'/></a>
+    <a href="#"><img src='../images/Movies/SnowWhite.jpg'/></a>
+    <a href="#"><img src='../images/Lorax.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Startrek.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Titanic.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Wintersbone.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Alice.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Fury.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Frozen.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Amélie.jpg'/></a>
 </div>
-<script type="text/javascript">
-    $(document).ready(function findMaxHeight(){
-        var maxHeight = 0;
-        var divImg = document.getElementById('carouselMultiple');
-        var img = divImg.getElementsByTagName('img');
-        for (var i=0; i < img.length; i++){
-            if(img[i].height > maxHeight){
-                maxHeight = img[i].height;
-            }
-        }
-        alert(maxHeight);
-    });
-    $(window).resize(function(){ findMaxHeight()});
 
-</script>
+<div>
+    <h4> Q - T </h4>
+</div>
+
+<div class="carouselMultiple">
+    <a href="#"><img src='../images/Movies/127hours.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Jurassic.jpg'/></a>
+    <a href="#"><img src='../images/Movies/FindingNemo.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Inception.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Prisonner.jpg'/></a>
+    <a href="#"><img src='../images/Movies/SnowWhite.jpg'/></a>
+    <a href="#"><img src='../images/Lorax.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Startrek.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Titanic.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Wintersbone.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Alice.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Fury.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Frozen.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Amélie.jpg'/></a>
+</div>
+
+<div>
+    <h4> U - X </h4>
+</div>
+
+<div class="carouselMultiple">
+    <a href="#"><img src='../images/Movies/127hours.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Jurassic.jpg'/></a>
+    <a href="#"><img src='../images/Movies/FindingNemo.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Inception.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Prisonner.jpg'/></a>
+    <a href="#"><img src='../images/Movies/SnowWhite.jpg'/></a>
+    <a href="#"><img src='../images/Lorax.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Startrek.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Titanic.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Wintersbone.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Alice.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Fury.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Frozen.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Amélie.jpg'/></a>
+</div>
+
+<div>
+    <h4> Y - Z </h4>
+</div>
+
+<div class="carouselMultiple">
+    <a href="#"><img src='../images/Movies/127hours.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Jurassic.jpg'/></a>
+    <a href="#"><img src='../images/Movies/FindingNemo.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Inception.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Prisonner.jpg'/></a>
+    <a href="#"><img src='../images/Movies/SnowWhite.jpg'/></a>
+    <a href="#"><img src='../images/Lorax.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Startrek.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Titanic.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Wintersbone.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Alice.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Fury.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Frozen.jpg'/></a>
+    <a href="#"><img src='../images/Movies/Amélie.jpg'/></a>
+</div>
 </body>
 </html>
