@@ -54,9 +54,10 @@ $(document).ready(function(){
         ]
     });
 });
-$(window).resize(function findMaxHeight(){
+$(window).resize(function reload(){
+    location.reload();
     /*Mettre image height default*/
-    
+
 
     /*var maxHeight = 0;
     var divImg = document.getElementById('carouselAll');
@@ -71,8 +72,6 @@ $(window).resize(function findMaxHeight(){
     for (var j=0; j < img4.length; j++){
         img4[j].height = maxHeight;
     }*/
-
-    location.reload();
 });
 
 $(document).ready(function findMaxHeight(){
@@ -84,10 +83,19 @@ $(document).ready(function findMaxHeight(){
             maxHeight = img[i].height;
         }
     }
-    var divImg4 = document.getElementById('carouselAll');
-    var img4 = divImg4.getElementsByTagName('img');
-    for (var j=0; j < img4.length; j++){
-        img4[j].height = maxHeight;
+    for (var j=0; j < img.length; j++){
+        img[j].height = maxHeight;
+    }
+    var maxHeight2 = 0;
+    var divImg2 = document.getElementById('carouselAll');
+    var img2 = divImg2.getElementsByTagName('img');
+    for (var x=0; x < img2.length; x++){
+        if(img2[x].height > maxHeight2){
+            maxHeight2 = img2[x].height;
+        }
+    }
+    for (var y=0; y < img2.length; y++){
+        img2[y].height = maxHeight2;
     }
 });
 
