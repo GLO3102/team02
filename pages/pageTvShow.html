@@ -11,7 +11,7 @@
     <script src="../js/gabarit.js"></script>
     <script src="../js/mainPage.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="../js/pageMovie.js"></script>
+    <script src="../js/pageTvShows.js"></script>
     <title>Movies</title>
 </head>
 <body>
@@ -125,33 +125,33 @@
         </div>
     </div>
 </nav>
-<div class="infoGenerale">
-    <img class="image" src='http://www.onparlecine.fr/wp-content/uploads/2013/09/breaking-bad.jpg'>
-    <button class="playbutton" onclick="player()"></button>
+<div class = "col-lg-3 col-md-4 col-sm-5 col-xs-12 image">
+    <div class="image">
+        <a href="#" class="imagePlay">
+            <span onclick="player()"></span>
+            <img id="imagePresentation" src="http://www.onparlecine.fr/wp-content/uploads/2013/09/breaking-bad.jpg"/>
+        </a>
+    </div>
+</div>
+<div class = "col-lg-9 col-md-7 col-sm-7 col-xs-12">
     <div class="info">
-        <p class="titreP">
+
+        <h1 class="titreP">
             Breaking Bad
-        </p>
-
-        <p class="description">
-            Genre: Drama, Crime
-        </p>
-
-        <p class="description">
-            Rating: PG
-        </p>
-
-        <p>
-            Release Date : January 20 2008
-        </p>
+        </h1>
+        <div class="information">
+            <div class="informationInterne"><img id="ratingImg" src="../images/RATED_PG.svg.png"></div>
+            <div class="informationInterne">Drama</div>
+            <div class="informationInterne">120min</div>
+            <div class="informationInterne">January 20th 2008</div>
+        </div>
 
         <p class="description">
             A chemistry teacher diagnosed with a terminal lung cancer teams up with his former student to cook and sell crystal meth.
         </p>
 
+        <a  id="buttonItune" href="https://itunes.apple.com/us/tv-season/breaking-bad-season-5/id533936970"></a>
 
-        <a href="https://itunes.apple.com/us/tv-season/breaking-bad-season-5/id533936970"
-           style="display:inline-block;overflow:hidden;background:url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_itunes-lrg.svg) no-repeat;width:165px;height:40px;"></a>
 
     </div>
 
