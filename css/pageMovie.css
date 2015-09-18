@@ -7,11 +7,12 @@ body {
     width:300px;
     height:auto;
 }
-a.images {
+
+a.imagePlay {
     float: left;
     position: relative;
 }
-a.images span {
+a.imagePlay span {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -41,11 +42,6 @@ a.images span {
     color: #ababab;
 }
 
-tr td {
-    border-top: none !important;
-    border-right: 2px solid white;
-    text-align: center;
-}
 
 .imgActor{
     width:2050px;
