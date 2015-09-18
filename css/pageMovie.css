@@ -52,3 +52,16 @@ tr td {
     width:2050px;
     height: auto;
 }
+
+.informationInterne{
+    display: inline-block;
+    border-right: 2px solid white;
+    padding-right: 20px;
+}
+
+@media (max-width: 768px){
+    .informationInterne{
+        display:block;
+        border:none;
+    }
+}
