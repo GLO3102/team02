@@ -4,7 +4,7 @@ body {
 }
 
 .image img {
-    width:100%;
+    width:300px;
     height:auto;
 }
 a.images {
@@ -48,3 +48,7 @@ tr td {
     text-align: center;
 }
 
+.imgActor{
+    width:2050px;
+    height: auto;
+}
