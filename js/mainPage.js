@@ -4,6 +4,7 @@
 $(document).ready(function () {
     $('.carouselMultiple').slick({
         infinite: true,
+        adaptiveWidth: true,
         slidesToShow: 9,
         slidesToScroll: 1,
         responsive: [
@@ -44,17 +45,24 @@ $(document).ready(function () {
                 }
             },
             {
-                breakpoint: 450,
+                breakpoint: 500,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 400,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1
                 }
-            },            {
-                breakpoint: 350,
+            },
+            {
+                breakpoint: 320,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1,
-                    centerPadding:50
+                    slidesToScroll: 1
                 }
             }
         ]

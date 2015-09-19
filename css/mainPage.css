@@ -60,13 +60,6 @@ ul.dropdown-menu {
     margin-bottom: 3%;
 }
 
-.slick-next {
-    right: -20px;
-}
-
-.slick-pre {
-    left: -20px;
-}
 
 .marginImgCarousel {
     margin-right: 1%;
@@ -77,3 +70,8 @@ ul.dropdown-menu {
       height: 140px;
   }
 
+@media (max-width: 320px){
+    .slick-list{
+    padding-left: 60px;
+    }
+}
