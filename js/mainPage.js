@@ -6,7 +6,6 @@ $(document).ready(function () {
         infinite: true,
         slidesToShow: 9,
         slidesToScroll: 1,
-        adaptiveHeight: true,
         responsive: [
             {
                 breakpoint: 1194,
@@ -38,22 +37,32 @@ $(document).ready(function () {
                 }
             },
             {
-                breakpoint: 450,
+                breakpoint: 768,
                 settings: {
                     slidesToShow: 4,
                     slidesToScroll: 1
                 }
             },
             {
-                breakpoint: 768,
+                breakpoint: 450,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                     slidesToScroll: 1
+                }
+            },            {
+                breakpoint: 350,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding:50
                 }
             }
         ]
     });
 });
+
+
+/**
 $(window).resize(function reload() {
     location.reload();
     /*Mettre image height default*/
@@ -71,9 +80,9 @@ $(window).resize(function reload() {
     var img4 = divImg4.getElementsByTagName('img');
     for (var j=0; j < img4.length; j++){
         img4[j].height = maxHeight;
-    }*/
-});
+    }});*/
 
+/**
 $(document).ready(function findMaxHeight() {
     var maxHeight = 0;
     var divImg = document.getElementById('carouselAll');
@@ -99,3 +108,4 @@ $(document).ready(function findMaxHeight() {
     }
 });
 
+*/

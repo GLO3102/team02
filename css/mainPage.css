@@ -24,10 +24,11 @@ h4 {
     margin: 0 1% 3% 1%;
 }
 
-.carousel-inner > .item > img {
+.carousel-inner > .item  > img {
     margin: 0 auto;
     max-height: 400px;
 }
+
 
 .icon-bar {
     color: #8c8c8c;
@@ -46,7 +47,7 @@ ul.dropdown-menu {
 }
 
 .carouselMultiple div {
-    margin-right: 5px;
+
 }
 
 .carouselMultiple img {
@@ -70,3 +71,9 @@ ul.dropdown-menu {
 .marginImgCarousel {
     margin-right: 1%;
 }
+
+.carouselMultiple img{
+      width:100px;
+      height: 140px;
+  }
+
