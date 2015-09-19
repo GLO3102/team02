@@ -29,7 +29,7 @@ a.imagePlay span {
 .description {
     text-align: justify;
     padding-top: 3%;
-    font-size: 13pt;
+    font-size: 12pt;
 
 }
 
@@ -122,4 +122,7 @@ a.imagePlay span {
 .titreS{
     font-size: 40pt;
     color: whitesmoke;
+}
+.information{
+    font-size: 10pt;
 }
