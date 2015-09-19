@@ -72,3 +72,54 @@ a.imagePlay span {
     padding-top: 19px;
 }
 
+.pochette{
+    display: inline-block;
+}
+
+.pochetteFilmography{
+    width:120px;
+    height: 160px;
+}
+
+.nomFilmFilmography{
+    display: inline-block;
+    font-size: 25pt;
+    color: whitesmoke;
+    padding-top: 60px;
+}
+
+.dateSortiFilmography{
+    display: inline-block;
+    font-size:25pt;
+    color: whitesmoke;
+    padding-top: 60px;
+}
+
+.previewFilmography{
+    display: inline-block;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.boutonPlayFilmography{
+    width:140px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.filmography{
+    padding-left: 19px;
+    border-radius: 10px;
+    border-top:3px solid darkorange;
+    border-left:3px solid darkorange;
+    border-right:3px solid darkorange;
+    border-bottom: 3px solid darkorange;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+
+.titreS{
+    font-size: 40pt;
+    color: whitesmoke;
+}
