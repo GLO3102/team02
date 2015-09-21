@@ -73,3 +73,27 @@ a.imagePlay span {
     padding-top: 19px;
 }
 
+.carouselMultiple div {
+
+}
+
+.carouselMultiple img {
+    max-width: 95%;
+}
+
+.carouselMultiple {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+}
+
+
+.marginImgCarousel {
+    margin-right: 1%;
+}
+
+.carouselMultiple img{
+    width:100px;
+    height: 140px;
+}
+
