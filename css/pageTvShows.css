@@ -9,6 +9,11 @@ body {
     height:auto;
 }
 
+h4 {
+    color: #ababab;
+    margin-left: 2%;
+}
+
 a.imagePlay {
     float: left;
     position: relative;
@@ -98,14 +103,6 @@ a.imagePlay span {
 }
 
 
-.slick-next {
-    right: -20px;
-}
-
-.slick-pre {
-    left: -20px;
-}
-
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     min-width: 100%;
 }
@@ -117,4 +114,12 @@ a.imagePlay span {
 .carousel-inner > .item > img {
     margin: 0 auto;
     max-height: 400px;
+}
+
+.slick-next {
+    right: -20px;
+}
+
+.slick-pre {
+    left: -20px;
 }
