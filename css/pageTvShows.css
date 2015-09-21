@@ -79,11 +79,7 @@ a.imagePlay span {
 }
 
 
-.carousel-inner > .item > img {
-    margin: 0 auto;
-    max-height: 140px;
-    width: 350px;
-}
+
 
 
 .carouselMultiple {
@@ -98,13 +94,13 @@ a.imagePlay span {
 }
 
 .carouselMultiple img{
-    width: 100%;
-    height: 140px;
+    width: 95%;
+    height: 100px;
 }
 
 
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    min-width: 100%;
+    width: 300px;
 }
 
 
