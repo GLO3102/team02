@@ -129,3 +129,30 @@ a.imagePlay span {
 .information{
     font-size: 10pt;
 }
+
+
+.carouselMultiple img {
+    max-width: 95%;
+}
+
+.carouselMultiple {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+}
+
+
+.marginImgCarousel {
+    margin-right: 1%;
+}
+
+.carouselMultiple img{
+    width:160px;
+    height: 140px;
+}
+
+@media (max-width: 320px){
+    .slick-list{
+        padding-left: 60px;
+    }
+}
