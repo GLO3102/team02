@@ -79,26 +79,27 @@ a.imagePlay span {
 .pochetteFilmography{
     width:80px;
     height: 100px;
+    padding-top: 10px;
 }
 
 .nomFilmFilmography{
     display: inline-block;
     font-size: 25pt;
     color: whitesmoke;
-    padding-top: 60px;
+    padding-top: 35px;
 }
 
 .dateSortiFilmography{
     display: inline-block;
     font-size:25pt;
     color: whitesmoke;
-    padding-top: 60px;
+    padding-top: 35px;
 }
 
 .previewFilmography{
     display: inline-block;
     text-align: center;
-    padding-top: 35px;
+    padding-top: 15px;
 }
 
 .boutonPlayFilmography{
@@ -130,3 +131,6 @@ a.imagePlay span {
 }
 
 
+.test{
+    display: block;
+}
