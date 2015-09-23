@@ -156,7 +156,12 @@ a.imagePlay span {
 }
 
 
+.TitrePage{
 
+    text-align: center;
+    color: whitesmoke;
+    font-size: 130%;
+}
 @media (max-width: 320px){
     .slick-list{
         padding-left: 60px;
