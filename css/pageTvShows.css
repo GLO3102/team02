@@ -4,6 +4,7 @@ body {
     font-family: Andale Mono, monospace;
 }
 
+
 .image img {
     width:300px;
     height:auto;
@@ -139,6 +140,9 @@ a.imagePlay span {
     width: 90%;
     margin: 0 auto;
     margin-bottom: 3%;
+    text-align: center;
+    color: whitesmoke;
+
 }
 
 
@@ -151,8 +155,12 @@ a.imagePlay span {
     height: 140px;
 }
 
+
+
 @media (max-width: 320px){
     .slick-list{
         padding-left: 60px;
     }
 }
+
+
