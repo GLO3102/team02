@@ -40,8 +40,10 @@ a.imagePlay span {
 }
 
 .info {
-    padding-right: 11%;
+    padding-right: 7%;
     color: #ababab;
+    padding-left: 1%;
+
 
 }
 
@@ -159,7 +161,6 @@ a.imagePlay span {
 
 .TitrePage{
 
-    text-align: center;
     color: whitesmoke;
     font-size: 130%;
 }
