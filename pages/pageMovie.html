@@ -9,8 +9,8 @@
 
     <link rel="stylesheet" href="../css/gabarit.css">
     <script src="../js/gabarit.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="../js/pageMovie.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Movies</title>
 </head>
 <body>
@@ -20,7 +20,7 @@
         <div class="navbar-header">
             <button id="buttonBurger" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                     data-target="#navbar"
-                    aria-expanded="false" aria-controls="navbar" >
+                    aria-expanded="false" aria-controls="navbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -97,10 +97,10 @@
                 <li><a href="#"><img id="parametreIcon" src="../images/Parametre.png"></a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                       aria-expanded="false"><img id="avatarIcon" src="../images/AvatarIcone.png"> <span
+                       aria-expanded="false"><img class="avatarIcon" src="../images/AvatarIcone.png"> <span
                             class="caret"></span></a>
                     <ul class="dropdown-menu rightMenu">
-                        <li class="utilisateurDropdownSpace bottomSpace"><img id="avatarIcon"
+                        <li class="utilisateurDropdownSpace bottomSpace"><img class="avatarIcon"
                                                                               src="../images/AvatarIcone.png"> USERNAME
                         </li>
                         <li><a href="pageLogin.html">Log out</a></li>
@@ -111,7 +111,7 @@
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right" id="navbarSmall">
-                <li class="marginUserSmall"><img id="avatarIconSmall" src="../images/AvatarIcone.png"> USERNAME </li>
+                <li class="marginUserSmall"><img id="avatarIconSmall" src="../images/AvatarIcone.png"> USERNAME</li>
                 <li><a href="pageLogin.html">Log out</a></li>
                 <li><a href="#">Help</a></li>
                 <li><a href="#">Settings</a></li>
@@ -124,42 +124,41 @@
         </div>
     </div>
 </nav>
-    <div class = "col-lg-3 col-md-4 col-sm-5 col-xs-12 image">
-        <div class="image">
-            <a href="#" class="imagePlay">
-                <span onclick="player()"></span>
-                <img id="imagePresentation" src="../images/Movies/FrozenPoster.jpg"/>
-            </a>
-        </div>
+
+<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12 image">
+    <div class="image">
+        <a href="#" class="imagePlay">
+            <span onclick="player()"></span>
+            <img id="imagePresentation" src="../images/Movies/FrozenPoster.jpg"/>
+        </a>
     </div>
-    <div class = "col-lg-9 col-md-7 col-sm-7 col-xs-12">
-        <div class="info">
+</div>
+<div class="col-lg-9 col-md-7 col-sm-7 col-xs-12">
+    <div class="info">
 
-            <h1 class="titreP">
-                Frozen
-            </h1>
-            <div class="information">
-                <div class="informationInterne"><img id="ratingImg" src="../images/Generale.png"></div>
-                <div class="informationInterne">Animation</div>
-                <div class="informationInterne">120min</div>
-                <div class="informationInterne">2015-11-19</div>
-            </div>
+        <h1 class="titreP">
+            Frozen
+        </h1>
 
-            <p class="description">
-                When the newly crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in
-                infinite winter, her sister, Anna, teams up with a mountain man, his playful reindeer, and a snowman to
-                change the weather condition.
-            </p>
-
-            <a  class="pull-right" id="buttonItune" href="https://geo.itunes.apple.com/ca/movie/frozen/id741238771?mt=6"></a>
-
-
+        <div class="information">
+            <div class="informationInterne"><img id="ratingImg" src="../images/Generale.png"></div>
+            <div class="informationInterne">Animation</div>
+            <div class="informationInterne">120min</div>
+            <div class="informationInterne">2015-11-19</div>
         </div>
 
+        <p class="description">
+            When the newly crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in
+            infinite winter, her sister, Anna, teams up with a mountain man, his playful reindeer, and a snowman to
+            change the weather condition.
+        </p>
+
+        <a class="pull-right" id="buttonItune" href="https://geo.itunes.apple.com/ca/movie/frozen/id741238771?mt=6"></a>
+
+
     </div>
 
-
-
+</div>
 
 
 </body>

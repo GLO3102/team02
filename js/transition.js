@@ -4,16 +4,16 @@
 $(document).ready(function () {
     $('.carouselMultiple').slick({
         infinite: true,
-        focusOnSelect: false,
+        adaptiveWidth: true,
         slidesToShow: 9,
         slidesToScroll: 1,
-        speed: 300,
         responsive: [
             {
                 breakpoint: 1194,
                 settings: {
                     slidesToShow: 8,
                     slidesToScroll: 1
+
                 }
             },
             {
@@ -43,8 +43,28 @@ $(document).ready(function () {
                     slidesToShow: 4,
                     slidesToScroll: 1
                 }
+            },
+            {
+                breakpoint: 500,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 400,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 320,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
             }
         ]
     });
 });
-

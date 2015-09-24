@@ -1,19 +1,17 @@
-
-
-body {
-    font-family: Andale Mono, monospace;
+.image {
+    margin-bottom: 3%;
 }
 
-
 .image img {
-    width:420px;
-    height:auto;
+    width: 100%;
+    height: auto;
 }
 
 a.imagePlay {
     float: left;
     position: relative;
 }
+
 a.imagePlay span {
     width: 100%;
     height: 100%;
@@ -24,7 +22,7 @@ a.imagePlay span {
 }
 
 .titreP {
-    font-size: 65pt;
+    font-size: 60pt;
     color: whitesmoke;
 }
 
@@ -44,80 +42,75 @@ a.imagePlay span {
     color: #ababab;
     padding-left: 1%;
 
-
 }
 
-
-.imgActor{
-    width:2050px;
+.imgActor {
+    width: 2050px;
     height: auto;
 }
 
-.informationInterne{
+.informationInterne {
     display: inline-block;
     border-right: 2px solid white;
     padding-right: 20px;
 }
 
-@media (max-width: 767px){
-    .informationInterne{
-        display:block;
-        border:none;
+@media (max-width: 767px) {
+    .informationInterne {
+        display: block;
+        border: none;
     }
-    .titreP{
+
+    .titreP {
         font-size: 50px;
-    }
-    #imagePresentation{
-        width: 300px;
-        height: auto;
     }
 }
 
-.image{
+.image {
     padding-top: 19px;
 }
 
-.pochette{
+.pochette {
     display: inline-block;
 }
 
-.pochetteFilmography{
-    width:80px;
+.pochetteFilmography {
+    width: 80px;
     height: 100px;
 }
 
-.nomFilmFilmography{
+.nomFilmFilmography {
     display: inline-block;
     font-size: 25pt;
     color: whitesmoke;
     padding-top: 60px;
 }
 
-.dateSortiFilmography{
+.dateSortiFilmography {
     display: inline-block;
-    font-size:25pt;
+    font-size: 25pt;
     color: whitesmoke;
     padding-top: 60px;
 }
 
-.previewFilmography{
+.previewFilmography {
     display: inline-block;
     text-align: center;
     padding-top: 35px;
 }
 
-.boutonPlayFilmography{
-    width:140px;
+.boutonPlayFilmography {
+    width: 140px;
     height: 100px;
     cursor: pointer;
 }
 
-.filmography{
+.filmography {
     padding-left: 19px;
     border-radius: 10px;
-    border-top:3px solid darkorange;
-    border-left:3px solid darkorange;
-    border-right:3px solid darkorange;
+    border-top: 3px solid darkorange;
+    border-left: 3px solid darkorange;
+    border-right: 3px solid darkorange;
     border-bottom: 3px solid darkorange;
     padding-bottom: 5px;
     padding-top: 5px;
@@ -125,15 +118,15 @@ a.imagePlay span {
     background-color: #020203
 }
 
-.titreS{
+.titreS {
     font-size: 40pt;
     color: whitesmoke;
     padding-top: 10px;
 }
-.information{
+
+.information {
     font-size: 10pt;
 }
-
 
 .carouselMultiple img {
     max-width: 95%;
@@ -148,26 +141,29 @@ a.imagePlay span {
 
 }
 
-
 .marginImgCarousel {
     margin-right: 1%;
 }
 
-.carouselMultiple img{
-    width:160px;
+.carouselMultiple img {
+    width: 160px;
     height: 140px;
 }
 
-
-.TitrePage{
-
+.TitrePage {
     color: whitesmoke;
-    font-size: 130%;
+    font-size: 14pt;
+    margin-left: 2%;
+    margin-bottom: 1%;
 }
-@media (max-width: 320px){
-    .slick-list{
+
+@media (max-width: 320px) {
+    .slick-list {
         padding-left: 60px;
     }
 }
 
+.episodeTitle {
+    font-size: 10pt;
+}
 
