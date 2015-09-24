@@ -144,51 +144,58 @@ a:hover {
     color: #fff;
 
 }
-#navbarSmall{
+
+#navbarSmall {
     display: none;
     font-size: 11pt;
 }
+
 .navbar {
     margin-bottom: 0;
 }
-.marginUserSmall{
+
+.marginUserSmall {
     margin-left: 2%;
     color: #8c8c8c;
     margin-bottom: 3%;
 }
-#avatarIconSmall{
+
+#avatarIconSmall {
     width: 0;
     height: 0;
 }
 
-
-@media (max-width: 767px){
-    #navbarSmall{
+@media (max-width: 767px) {
+    #navbarSmall {
         display: block;
     }
-    #browseDropdown{
+
+    #browseDropdown {
         display: none;
     }
-    #navbarRight{
+
+    #navbarRight {
         display: none;
     }
-    #avatarIconSmall{
+
+    #avatarIconSmall {
         width: 29px;
         height: 27px;
     }
 }
-@media (min-width: 768px){
-    #avatarIconSmall{
+
+@media (min-width: 768px) {
+    #avatarIconSmall {
         width: 0px;
         height: 0px;
     }
 }
 
-#buttonItune{
-    display:inline-block;
-    overflow:hidden;
-    background:url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_itunes-lrg.svg) no-repeat;
-    width:120px;
-    height:80px;
+#buttonItune {
+    display: inline-block;
+    overflow: hidden;
+    background: url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_itunes-lrg.svg) no-repeat;
+    width: 120px;
+    height: 80px;
     margin-top: 5%;
 }
