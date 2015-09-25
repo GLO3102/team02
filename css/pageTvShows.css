@@ -128,10 +128,6 @@ a.imagePlay span {
     font-size: 10pt;
 }
 
-.carouselMultiple img {
-    max-width: 95%;
-}
-
 .carouselMultiple {
     width: 90%;
     margin: 0 auto;
@@ -139,15 +135,6 @@ a.imagePlay span {
     text-align: center;
     color: whitesmoke;
 
-}
-
-.marginImgCarousel {
-    margin-right: 1%;
-}
-
-.carouselMultiple img {
-    width: 160px;
-    height: 140px;
 }
 
 .TitrePage {
@@ -166,4 +153,15 @@ a.imagePlay span {
 .episodeTitle {
     font-size: 10pt;
 }
+.carouselMultiple img {
+    max-width: 95%;
+}
 
+.marginImgCarousel {
+    margin-right: 1%;
+}
+
+.carouselMultiple img {
+    width: 90%;
+    height: 160px;
+}
