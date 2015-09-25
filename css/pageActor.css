@@ -89,4 +89,6 @@ th, td {
     margin:auto;
     cursor:pointer
 }
-
+.linkUnderline{
+    text-decoration: underline;
+}
