@@ -9,8 +9,8 @@
 
     <link rel="stylesheet" href="../css/gabarit.css">
     <script src="../js/gabarit.js"></script>
+    <script src="../js/pageActor.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="../js/pageMovie.js"></script>
     <title>Acteurs</title>
 </head>
 <body>
@@ -125,7 +125,7 @@
     </div>
 </nav>
 
-<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12 image">
+<div class="col-lg-3 col-md-5 col-sm-5 col-xs-12">
     <div class="image">
         <img id="imagePresentation" src="../images/Actors/Adam.jpg"/>
     </div>
@@ -139,22 +139,54 @@
         <div class="information">
             <div class="informationInterne">Comedy</div>
             <div class="informationInterne">56 years old</div>
+            <div class="informationInterne">9 September 1966</div>
         </div>
 
         <p class="description">
-            Adam Richard Sandler (born September 9, 1966)[1] is an American actor, comedian, screenwriter, entrepreneur,
+            Adam Richard Sandler is an American actor, comedian, screenwriter, entrepreneur,
             film producer, and musician. After becoming a Saturday Night Live cast member, Sandler went on to star in
-            many Hollywood feature films that combined have grossed over $2 billion at the box office.[2] He is best
-            known for his comedic roles, such as in the films Billy Madison (1995), the sports comedies Happy Gilmore
-            (1996) and The Waterboy (1998), the romantic comedy The Wedding Singer (1998), Big Daddy (1999), and Mr.
-            Deeds (2002), though he has ventured into more dramatic territory with his roles in Punch-Drunk Love (2002),
-            Spanglish (2004), Reign Over Me (2007), and Funny People (2009).
+            many Hollywood feature films that combined have grossed over $2 billion at the box office. He is best
+            known for his comedic roles.
         </p>
 
         <a class="pull-right" id="buttonItune" href="https://geo.itunes.apple.com/ca/movie/frozen/id741238771?mt=6"></a>
     </div>
 </div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <h3 class="titreList">List of movies</h3>
+    <table id="listMovie">
+        <tr class="bigestOpacity">
+            <td><img class="imageList" src="../images/Lorax.jpg">The lorax</td>
+            <td class="pullright">Lorax</td>
+        </tr>
+        <tr>
+            <td><img class="imageList" src="../images/Lorax.jpg">The lorax</td>
+            <td class="pullright">Lorax</td>
+        </tr>
+        <tr class="bigestOpacity">
+            <td><img class="imageList" src="../images/Lorax.jpg">The lorax</td>
+            <td class="pullright">Lorax</td>
+        </tr>
+    </table>
+    <div><img class="imageBullet" src="../images/Plusbullet.png" onclick="AddMovieRow()"></div>
+    <h3 class="titreList">List of Tv shows</h3>
+    <table id="listTvShow">
+        <tr class="bigestOpacity">
+            <td><img class="imageList" src="../images/Lorax.jpg">The lorax</td>
+            <td class="pullright">Lorax</td>
+        </tr>
+        <tr>
+            <td><img class="imageList" src="../images/Lorax.jpg">The lorax</td>
+            <td class="pullright">Lorax</td>
+        </tr>
+        <tr  class="bigestOpacity">
+            <td><img class="imageList" src="../images/Lorax.jpg">The lorax</td>
+            <td class="pullright">Lorax</td>
+        </tr>
+    </table>
+    <div><img class="imageBullet" src="../images/Plusbullet.png" onclick="AddTvShowRow()"></div>
 
+</div>
 
 </body>
 </html>
