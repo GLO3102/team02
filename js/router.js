@@ -5,7 +5,7 @@ define([
     'jquery',
     'underscore',
     'backbone',
-    'MainPageView'
+    'views/mainPageView'
 ], function($, _, Backbone, MainPageView){
     var AppRouter = Backbone.Router.extend({
         routes: {

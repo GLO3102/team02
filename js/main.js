@@ -4,7 +4,7 @@ require.config({
         underscore: 'libs/underscore/underscore',
         backbone: 'libs/backbone/backbone',
         slick: 'libs/slick-1.5.7/slick/slick.js',
-        MainPageView :'views/MainPageView',
+        MainPageView :'views/mainPageView',
         text: 'libs/require/text'
     }
 
