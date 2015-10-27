@@ -5,7 +5,7 @@
  * Created by RoxanneLandry on 15-10-26.
  */
 define([
-    '../libs/jquery/jquery-2.1.4',
+    'jquery',
     'bootstrap',
     'slick',
     'presentation',

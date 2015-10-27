@@ -10,8 +10,7 @@ define([
 ], function($, _, Backbone,MenuBarView, MainPageView){
     var AppRouter = Backbone.Router.extend({
         routes: {
-            '':'home',
-            '/actors': 'actors'
+            '':'home'
         }
     });
 
@@ -22,10 +21,6 @@ define([
             var menuBarView  = new MenuBarView();
             var mainPageView = new MainPageView();
             mainPageView.render();
-            menuBarView.render();
-        });
-        router.on('route:actors', function(){
-            var menuBarView  = new MenuBarView();
             menuBarView.render();
         });
 
