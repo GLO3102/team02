@@ -1,6 +1,18 @@
 /**
- * Created by RoxanneLandry on 15-09-13.
+ * Created by RoxanneLandry on 15-09-15.
  */
+define([
+    'slick',
+], function(slick){
+    function afficherSearch(id) {
+    var searchBar = document.getElementById(id);
+    if (searchBar.style.display == 'none') {
+        searchBar.style.display = 'inline';
+        searchBar.focus();
+    } else {
+        searchBar.style.display = 'none';
+    }
+}
 $(document).ready(function () {
     $('.carouselMultiple').slick({
         infinite: true,
@@ -67,4 +79,5 @@ $(document).ready(function () {
             }
         ]
     });
+});
 });

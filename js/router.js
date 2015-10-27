@@ -5,20 +5,28 @@ define([
     'jquery',
     'underscore',
     'backbone',
-    'views/mainPageView'
-], function($, _, Backbone, MainPageView){
+    'views/MenuBarView',
+    'views/MainPageView'
+], function($, _, Backbone,MenuBarView, MainPageView){
     var AppRouter = Backbone.Router.extend({
         routes: {
-            '':'home'
+            '':'home',
+            '/actors': 'actors'
         }
     });
 
     var initialize = function(){
-        var app_router = new AppRouter;
+        var router = new AppRouter;
 
-        app_router.on('route:home', function(){
-            var mainPageView  = new MainPageView();
+        router.on('route:home', function(){
+            var menuBarView  = new MenuBarView();
+            var mainPageView = new MainPageView();
             mainPageView.render();
+            menuBarView.render();
+        });
+        router.on('route:actors', function(){
+            var menuBarView  = new MenuBarView();
+            menuBarView.render();
         });
 
         Backbone.history.start();
