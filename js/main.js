@@ -6,7 +6,9 @@ require.config({
         backbone: 'libs/backbone/backbone',
         presentation: 'presentation/UMoviePresentation',
         text: 'libs/require/text',
-        slick: 'libs/slick-1.5.7/slick/slick.min'
+        slick: 'libs/slick-1.5.7/slick/slick.min',
+
+
 
     },
     shim: {
