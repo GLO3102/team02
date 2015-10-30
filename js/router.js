@@ -6,11 +6,13 @@ define([
     'underscore',
     'backbone',
     'views/MenuBarView',
-    'views/MainPageView'
-], function($, _, Backbone,MenuBarView, MainPageView){
+    'views/MainPageView',
+    'views/ActorView'
+], function($, _, Backbone,MenuBarView, MainPageView, ActorView){
     var AppRouter = Backbone.Router.extend({
         routes: {
-            '':'home'
+            '':'home',
+            'actor':'actor'
         }
     });
 
@@ -22,6 +24,11 @@ define([
             var mainPageView = new MainPageView();
             mainPageView.render();
             menuBarView.render();
+        });
+
+        router.on('route:actor',function(){
+            var actorView = new ActorView();
+            actorView.render();
         });
 
         Backbone.history.start();
