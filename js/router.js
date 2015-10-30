@@ -7,7 +7,7 @@ define([
     'backbone',
     'views/MenuBarView',
     'views/MainPageView',
-    'views/ActorView'
+    'views/ActeurView'
 ], function($, _, Backbone,MenuBarView, MainPageView, ActorView){
     var AppRouter = Backbone.Router.extend({
         routes: {
