@@ -8,12 +8,12 @@
 define([
     'jquery',
     'bootstrap',
-    'slick',
+    'owl',
     'presentation',
     'underscore',
     'backbone',
     'text!templates/mainPage.html'
-], function($, _bootstrap, slick, presentation,  _, Backbone, mainPageTemplate){
+], function($, _bootstrap, owl, presentation,  _, Backbone, mainPageTemplate){
     var MainPageView = Backbone.View.extend({
         el: $(".content"),
         initialize: function(){

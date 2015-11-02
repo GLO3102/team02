@@ -6,17 +6,13 @@ require.config({
         backbone: 'libs/backbone/backbone',
         presentation: 'presentation/presentation',
         text: 'libs/require/text',
-        slick: 'libs/slick-1.5.7/slick/slick.min'
+        owl: 'libs/owl/owl.carousel'
 
 
     },
     shim: {
         'bootstrap':{
             deps:['jquery']
-        },
-        'slick': {
-            deps:['jquery'],
-            exports: 'jQuery.fn.slick'
         }
     }
 });
