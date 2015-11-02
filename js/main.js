@@ -6,16 +6,15 @@ require.config({
         backbone: 'libs/backbone/backbone',
         menuBar: 'presentation/MenuBar',
         text: 'libs/require/text',
-        owl: 'libs/owl/owl.carousel',
-        owlPresentation: 'presentation/Owl'
+        slick: 'libs/slick/slick.min'
 
     },
     shim: {
         'bootstrap':{
             deps:['jquery']
         },
-        'owlPresentation':{
-            deps:['owl']
+        'slick':{
+            deps:['jquery']
         }
     }
 });

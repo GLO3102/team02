@@ -5,12 +5,11 @@
 define([
     'jquery',
     'bootstrap',
-    'owl',
+    'slick',
     'underscore',
     'backbone',
-    'owlPresentation',
     'text!templates/mainPage.html'
-], function($, _bootstrap, _owl,  _, Backbone,owlPresentation, mainPageTemplate){
+], function($, _bootstrap,slick, _, Backbone, mainPageTemplate){
     var MainPageView = Backbone.View.extend({
         el: $(".content"),
         initialize: function(){
