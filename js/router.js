@@ -9,15 +9,26 @@ define([
     'views/MainPageView',
     'views/ActorView',
     'views/WatchlistsView',
-    'views/WatchlistView'
-], function($, _, Backbone,MenuBarView, MainPageView, ActorView, WatchlistsView, WatchlistView){
+    'views/WatchlistView',
+    'views/TvShowView',
+    'views/ListeTvShowsView',
+    'views/EpisodeTvShowView',
+    'views/ListeEpisodesTvShowView'
+
+], function($, _, Backbone,MenuBarView, MainPageView, ActorView, WatchlistsView, WatchlistView, TvShowView,
+                  ListeTvShowsView, EpisodeTvShowView, ListeEpisodesTvShowView){
+
     var AppRouter = Backbone.Router.extend({
         routes: {
             '':'home',
             'actor':'actor',
             'watchlists':'watchlists',
             'newwatchlist':'watchlist',
-            'watchlist/:id':'watchlist'
+            'watchlist/:id':'watchlist',
+            'TvShow:':'TvShow',
+            'ListeTvShows:':'ListeTvShows',
+            'EpisodeTvShow:':'EpisodeTvShow',
+            'ListeEpisodesTvShow:':'ListeEpisodesTvShow'
 
         }
     });
@@ -48,6 +59,30 @@ define([
         router.on('route:watchlist',function(id){
             var watchlistView = new WatchlistView({router: router});
             watchlistView.render({id:id});
+            menuBarView.render();
+        });
+
+        router.on('route:TvShow',function(){
+            var tvShowView = new TvShowView();
+            tvShowView.render();
+            menuBarView.render();
+        });
+
+        router.on('route:ListeTvShows',function(){
+            var listeTvShowsView = new ListeTvShowsView();
+            listeTvShowsView.render();
+            menuBarView.render();
+        });
+
+        router.on('route:EpisodeTvShow',function(){
+            var episodeTvShowView = new EpisodeTvShowView();
+            episodeTvShowView.render();
+            menuBarView.render();
+        });
+
+        router.on('route:ListeEpisodesTvShow',function(){
+            var listeEpisodesTvShowView = new ListeEpisodesTvShowView();
+            listeEpisodesTvShowView.render();
             menuBarView.render();
         });
 
