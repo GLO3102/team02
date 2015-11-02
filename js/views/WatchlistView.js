@@ -34,10 +34,8 @@ define([
             });
         },
         DeleteMovie: function(){
-            var WatchlistId = $(event.target).data('id');
-            var model = this.collection.get(WatchlistId);
-            model.destroy();
-            this.collection.remove(WatchlistId);
+            var movieId = $(event.target).data('id');
+            console.log('movie deleted');
         },
         render: function (options) {
             var that = this;

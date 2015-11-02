@@ -35,10 +35,10 @@ define([
             });
         },
         DeleteWatchlist: function(event) {
-            var WatchlistId = $(event.target).data('id');
-            var model = this.collection.get(WatchlistId);
+            var watchlistId = $(event.target).data('id');
+            var model = this.collection.get(watchlistId);
             model.destroy();
-            this.collection.remove(WatchlistId);
+            this.collection.remove(watchlistId);
         },
         render: function () {
             this.$el.html(this.template({watchlists: this.collection.toJSON()}));
