@@ -12,9 +12,6 @@ require.config({
     shim: {
         'bootstrap':{
             deps:['jquery']
-        },
-        'slick':{
-            deps:['jquery']
         }
     }
 });
