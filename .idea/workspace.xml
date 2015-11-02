@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f514ef72-556a-480a-8d2c-90c7a8e43c13" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Movies/127hours.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Actors/Adam.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Movies/Agenger.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Movies/Alice.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Movies/Amélie.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Actors/Angelina.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Movies/Avatar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/AvatarIcone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/BBS05E01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/BBS05E02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/BBS05E03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/BBS05E04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/BBS05E05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/BBS05E06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/BBS05E07.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/BBS05E08.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/BBS05E09.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/BBS05E10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/BBS05E11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/BBS05E12.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/BBS05E13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/BBS05E14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/BBS05E15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/BBS05E16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/BlankImg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Movies/Blended.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Actors/Brad.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Actors/Bradley.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Movies/BreakingBad.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/BreakingBad.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/BreakingBadPoster.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Actors/Channing.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/DareDevil.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/Dexter.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/DoctorWho.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Movies/FindingNemo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/Friends.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Movies/Frozen.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Movies/FrozenPoster.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Movies/Fury.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/GameOfTrone.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Generale.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/Glee.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Movies/GrownUps.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/Hannibal.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/Heroes.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Actors/Hilary.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Movies/Inception.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Movies/Interstellar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Actors/Jack.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Movies/JackAndJill.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Actors/Jennifer.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Actors/JenniferA.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Actors/Jessica.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Actors/John.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Movies/Jurassic.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Actors/Leonardo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Lorax.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Actors/Morgan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Actors/Nicolas.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/PG.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Parametre.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/PlayIcone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Plusbullet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Movies/Prisonner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Actors/Resse.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Actors/Robert.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/SearchIcone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/Sherlock.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Movies/ShutterIsland.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/Simpson.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/Smallville.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Movies/SnowWhite.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Movies/Startrek.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Actors/Taylor.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Movies/Titanic.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Movies/UndertheDome.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/VampireDairy.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/WalkingDead.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Movies/Wintersbone.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/slick-1.5.7/slick/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/imgs/Tv Shows/breaking-bad.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/slick-1.5.7/slick/fonts/slick.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/slick-1.5.7/slick/fonts/slick.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/slick-1.5.7/slick/fonts/slick.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/models/Actor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/slick-1.5.7/CONTRIBUTING.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/slick-1.5.7/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/views/MainPageView.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/slick-1.5.7/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/views/MenuBarView.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/models/Movie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/collections/Movies.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/slick-1.5.7/README.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/UMovie.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/collections/Watchlist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/models/Watchlist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/views/WatchlistView.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/views/WatchlistsView.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/templates/actor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/backbone/backbone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/bootstrap/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/slick-1.5.7/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/slick-1.5.7/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/slick-1.5.7/slick/config.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/jquery/jquery-2.1.4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/templates/mainPage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/templates/menuBar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/require/order.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/slick-1.5.7/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/presentation/presentation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/require/require.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/router.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/slick-1.5.7/slick/slick-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/slick-1.5.7/slick/slick-theme.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/slick-1.5.7/slick/slick.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/slick-1.5.7/slick.jquery.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/slick-1.5.7/slick/slick.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/slick-1.5.7/slick/slick.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/slick-1.5.7/slick/slick.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/slick-1.5.7/slick/fonts/slick.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/require/text.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/libs/underscore/underscore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/templates/watchlist.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/templates/watchlists.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+    </list>
+    <ignored path="team02.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="team02" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Html5" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/js/views/actorView.js" />
+        <option value="$PROJECT_DIR$/js/views/MainPageView.js" />
+        <option value="$PROJECT_DIR$/js/views/MenuBarView.js" />
+        <option value="$PROJECT_DIR$/js/views/ActorView.js" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/js/models/Actor.js" />
+        <option value="$PROJECT_DIR$/js/collections/Actor.js" />
+        <option value="$PROJECT_DIR$/js/templates/actor.html" />
+        <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/js/views/ActeurView.js" />
+        <option value="$PROJECT_DIR$/js/views/TvShowsView.js" />
+        <option value="$PROJECT_DIR$/js/router.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="team02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="team02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="team02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="team02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="team02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="team02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="team02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="team02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="team02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imgs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="team02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="team02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Maxime\WebstormProjects\TP2\team02" />
+      <recent name="C:\Users\Maxime\WebstormProjects\TP2\team02\js\views" />
+      <recent name="C:\Users\Maxime\WebstormProjects\TP2\team02\js\templates" />
+      <recent name="C:\Users\Maxime\WebstormProjects\TP2\team02\js\models" />
+      <recent name="C:\Users\Maxime\WebstormProjects\TP2\team02\js\collections" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f514ef72-556a-480a-8d2c-90c7a8e43c13" name="Default" comment="" />
+      <created>1446229820463</created>
+      <option name="number" value="Default" />
+      <updated>1446229820463</updated>
+    </task>
+    <task id="LOCAL-00001" summary="actor template">
+      <created>1446243861863</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1446243861863</updated>
+    </task>
+    <task id="LOCAL-00002" summary="actor template">
+      <created>1446244077976</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1446244077976</updated>
+    </task>
+    <task id="LOCAL-00003" summary="actor template">
+      <created>1446244237087</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1446244237087</updated>
+    </task>
+    <task id="LOCAL-00004" summary="actor template">
+      <created>1446244299332</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1446244299332</updated>
+    </task>
+    <task id="LOCAL-00005" summary="actor template">
+      <created>1446247548970</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1446247548970</updated>
+    </task>
+    <task id="LOCAL-00006" summary="actor template">
+      <created>1446435327594</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1446435327594</updated>
+    </task>
+    <task id="LOCAL-00007" summary="actor template">
+      <created>1446435385649</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1446435385649</updated>
+    </task>
+    <task id="LOCAL-00008" summary="actor template">
+      <created>1446435511557</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1446435511557</updated>
+    </task>
+    <task id="LOCAL-00009" summary="actor template">
+      <created>1446435580217</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1446435580217</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.215625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30864197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2345679" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="actor template" />
+    <option name="LAST_COMMIT_MESSAGE" value="actor template" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.idea/.name">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/views/ActorView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28911564">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
