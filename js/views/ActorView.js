@@ -13,28 +13,34 @@ define([
     'presentation',
     'underscore',
     'backbone',
-    'models/Actor',
+    'collections/Actors',
     'text!templates/actor.html'
 
-], function($, _bootstrap, presentation,  _, Backbone, Actor, actorTemplate){
+], function($, _bootstrap, presentation,  _, Backbone, ActorCollection, actorTemplate){
     var ActorView = Backbone.View.extend({
         template: _.template(actorTemplate),
 
         el: $(".content"),
         initialize: function(){
-            this.acteurInfo = new Actor();
+            _.bindAll(this,'render');
+            var that = this;
+            this.collection = new ActorCollection();
 
-            this.acteurInfo.fetch({
-                success: function(acteurInfo){
+            this.collection.fetch({
+                success: function(){
+                    console.log('fetched');
                 },
                 error: function(){
                 }
 
             });
-
+            this.collection.bind('sync destroy save', function () {
+                that.render();
+            });
         },
         render: function() {
-            this.$el.html(this.template({actorInfo: this.acteurInfo.toJSON()}));
+
+            this.$el.html(this.template({actorInfo: this.collection.toJSON()}));
         }
     });
 

@@ -1,3 +1,4 @@
+/*MAIN PAGE*/
 html {
     background: url("../imgs/Background.png") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -252,7 +253,6 @@ ul.dropdown-menu {
     color: #ababab;
     margin-left: 4%;
     margin-bottom: 4%;
-
 }
 
 #listWatchlist {
@@ -374,4 +374,12 @@ div.item {
 }
 .deleteButton:hover{
     color: brown;
+}
+#buttonItune {
+    display: inline-block;
+    overflow: hidden;
+    background: url(http://linkmaker.itunes.apple.com/images/badges/en-us/badge_itunes-lrg.svg) no-repeat;
+    width: 120px;
+    height: 80px;
+    margin-top: 5%;
 }

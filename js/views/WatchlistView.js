@@ -12,7 +12,6 @@ define([
 ], function($, _bootstrap, presentation,  _, Backbone, WatchlistModel, watchlistTemplate){
     var WatchlistView = Backbone.View.extend({
         initialize: function(){
-            alert();
         },
         el: $(".content"),
         template: _.template(watchlistTemplate),

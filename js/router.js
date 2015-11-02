@@ -35,7 +35,7 @@ define([
 
         router.on('route:actor',function(){
             var actorView = new ActorView();
-            actorView.render();
+
             menuBarView.render();
         });
 
