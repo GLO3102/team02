@@ -1,19 +1,16 @@
 /**
  * Created by RoxanneLandry on 15-10-27.
  */
-/**
- * Created by RoxanneLandry on 15-10-26.
- */
 
 define([
     'jquery',
     'bootstrap',
     'owl',
-    'presentation',
     'underscore',
     'backbone',
+    'owlPresentation',
     'text!templates/mainPage.html'
-], function($, _bootstrap, owl, presentation,  _, Backbone, mainPageTemplate){
+], function($, _bootstrap, _owl,  _, Backbone,owlPresentation, mainPageTemplate){
     var MainPageView = Backbone.View.extend({
         el: $(".content"),
         initialize: function(){

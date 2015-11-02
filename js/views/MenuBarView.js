@@ -5,7 +5,7 @@
 define([
     'jquery',
     'bootstrap',
-    'presentation',
+    'menuBar',
     'underscore',
     'backbone',
     'text!templates/menuBar.html'

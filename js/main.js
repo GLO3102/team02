@@ -4,15 +4,18 @@ require.config({
         bootstrap: 'libs/bootstrap/bootstrap',
         underscore: 'libs/underscore/underscore',
         backbone: 'libs/backbone/backbone',
-        presentation: 'presentation/presentation',
+        menuBar: 'presentation/MenuBar',
         text: 'libs/require/text',
-        owl: 'libs/owl/owl.carousel'
-
+        owl: 'libs/owl/owl.carousel',
+        owlPresentation: 'presentation/Owl'
 
     },
     shim: {
         'bootstrap':{
             deps:['jquery']
+        },
+        'owlPresentation':{
+            deps:['owl']
         }
     }
 });

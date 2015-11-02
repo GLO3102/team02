@@ -375,3 +375,11 @@ div.item {
 .deleteButton:hover{
     color: brown;
 }
+.owl .item{
+    margin: 3px;
+}
+.owl .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}

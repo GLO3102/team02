@@ -4,13 +4,12 @@
 define([
     'jquery',
     'bootstrap',
-    'presentation',
     'underscore',
     'backbone',
     'collections/Watchlist',
     'text!templates/watchlists.html'
 
-], function($, _bootstrap, presentation,  _, Backbone, WatchlistCollection, watchlistsTemplate){
+], function($, _bootstrap,  _, Backbone, WatchlistCollection, watchlistsTemplate){
     var WatchlistsView = Backbone.View.extend({
         template: _.template(watchlistsTemplate),
         el: $(".content"),

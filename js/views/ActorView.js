@@ -10,13 +10,12 @@
 define([
     'jquery',
     'bootstrap',
-    'presentation',
     'underscore',
     'backbone',
     'models/Actor',
     'text!templates/actor.html'
 
-], function($, _bootstrap, presentation,  _, Backbone, Actor, actorTemplate){
+], function($, _bootstrap,  _, Backbone, Actor, actorTemplate){
     var ActorView = Backbone.View.extend({
         template: _.template(actorTemplate),
 
