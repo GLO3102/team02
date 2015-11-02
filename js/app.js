@@ -5,8 +5,11 @@ define([
     'jquery',
     'underscore',
     'backbone',
-    'router'
-], function($, _, Backbone, Router){
+    'router',
+    'models/Actor',
+    'views/ActeurView',
+], function($, _, Backbone, Router,ActorModel,ActorView){
+
     var initialize = function(){
         Router.initialize();
     };

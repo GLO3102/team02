@@ -7,13 +7,11 @@ define([
     'backbone'
 ], function( _, Backbone){
 
-
-
-    var Actor = Backbone.Model.extend({
+    var ActorModel = Backbone.Model.extend({
         urlRoot: 'https://umovie.herokuapp.com/unsecure/actors/253584821',
         parse:function (response){
             return response;
         }
     });
-    return Actor;
+    return ActorModel;
 });

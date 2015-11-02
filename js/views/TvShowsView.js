@@ -8,7 +8,7 @@ define([
     'presentation',
     'underscore',
     'backbone',
-    'models/Actor',
+    'models/TvShows',
     'text!templates/actor.html'
 
 ], function($, _bootstrap, slick, presentation,  _, Backbone, TvShow, tvShowTemplate){

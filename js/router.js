@@ -7,8 +7,9 @@ define([
     'backbone',
     'views/MenuBarView',
     'views/MainPageView',
-    'views/ActeurView'
-], function($, _, Backbone,MenuBarView, MainPageView, ActorView){
+    'views/ActeurView',
+    'models/Actor'
+], function($, _, Backbone,MenuBarView, MainPageView,ActorView, ActorModel){
     var AppRouter = Backbone.Router.extend({
         routes: {
             '':'home',
@@ -27,7 +28,9 @@ define([
         });
 
         router.on('route:actor',function(){
-            var actorView = new ActorView();
+            var actorModel = new ActorModel;
+            debugger;
+            var actorView = new ActorView({model:actorModel});
             actorView.render();
         });
 

@@ -14,31 +14,29 @@ define([
     'models/Actor',
     'text!templates/actor.html'
 
-], function($, _bootstrap, slick, presentation,  _, Backbone, Actor, actorTemplate){
+], function($, _bootstrap, slick, presentation,  _, Backbone, ActorModel, actorTemplate){
     var ActorView = Backbone.View.extend({
-        template: _.template(actorTemplate),
+        template : _.template(actorTemplate),
+        el: '.content',
+        initialize:function(){
 
-        el: $(".content"),
-        initialize: function(){
-            this.acteurInfo = new Actor();
 
-            this.acteurInfo.fetch({
-                success: function(acteurInfo){
-                    alert("yo");
-                    alert(acteurInfo.toJSON);
+            var actorInfo = new ActorModel();
+            var data = actorInfo.fetch({
+                success: function(actorInfo){
+
                 },
                 error: function(){
-                    alert("oupssss");
-                }
 
+                }
             });
 
         },
         render: function() {
-            this.$el.html(this.template({actorInfo: this.acteurInfo.toJSON()}));
+            var html = this.template({actor: actorInfo.toJSON()});
+            this.$el.html(html);
+            return this;
         }
     });
-
-
     return ActorView;
 });
